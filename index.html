@@ -1,0 +1,1752 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>欧美影视大片_深度品鉴_光影档案库与正版片单</title>
+<meta name="description" content="欧美影视大片官方网站，聚焦欧美影视大片品牌故事、深度品鉴、创作者档案与正版片单，为影迷打造高品质内容生态。">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23141b2e'/%3E%3Cpath d='M20 18h8v28h-8zM36 18h8v10h-8zM36 36h8v10h-8z' fill='%23e2b13c'/%3E%3C/svg%3E">
+<style>
+:root{
+  --nf-bg:#0d1322;
+  --nf-bg-soft:#141b2e;
+  --nf-panel:#1a2338;
+  --nf-panel-2:#202b45;
+  --nf-line:rgba(226,177,60,.18);
+  --nf-line-soft:rgba(255,255,255,.09);
+  --nf-gold:#e2b13c;
+  --nf-gold-soft:#f0cd7a;
+  --nf-cyan:#4bc6d8;
+  --nf-rose:#e2688b;
+  --nf-text:#eef1f8;
+  --nf-muted:#9aa6bf;
+  --nf-radius:14px;
+  --nf-shadow:0 18px 44px rgba(0,0,0,.38);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{
+  font-family:"PingFang SC","Hiragino Sans GB","Microsoft YaHei",system-ui,-apple-system,sans-serif;
+  background:
+    radial-gradient(1100px 520px at 82% -8%,rgba(226,177,60,.13),transparent 62%),
+    radial-gradient(900px 480px at -6% 34%,rgba(75,198,216,.10),transparent 60%),
+    var(--nf-bg);
+  color:var(--nf-text);
+  line-height:1.75;
+  -webkit-font-smoothing:antialiased;
+}
+img,svg{display:block;max-width:100%}
+a{color:inherit;text-decoration:none}
+button{font-family:inherit;cursor:pointer;border:none;background:none;color:inherit}
+.nf-wrap{width:min(1180px,92vw);margin:0 auto}
+.nf-sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+
+/* 吸顶容器 */
+.nf-sticky{position:sticky;top:0;z-index:60}
+.nf-notice{
+  background:linear-gradient(90deg,#1d2740,#26324f 40%,#1d2740);
+  border-bottom:1px solid var(--nf-line);
+  font-size:13px;
+  color:#cfd8ec;
+}
+.nf-notice-inner{display:flex;align-items:center;gap:12px;padding:8px 0;overflow:hidden}
+.nf-notice-tag{
+  flex:0 0 auto;background:var(--nf-gold);color:#20180a;font-weight:700;
+  font-size:11px;letter-spacing:.14em;padding:2px 8px;border-radius:4px;
+}
+.nf-notice-list{display:flex;gap:34px;white-space:nowrap;animation:nf-marquee 32s linear infinite}
+.nf-notice-list span::before{content:"◆";color:var(--nf-gold);font-size:9px;margin-right:7px;vertical-align:1px}
+@keyframes nf-marquee{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+@media (prefers-reduced-motion:reduce){.nf-notice-list{animation:none}}
+
+.nf-header{
+  background:rgba(13,19,34,.9);
+  backdrop-filter:blur(14px);
+  border-bottom:1px solid var(--nf-line-soft);
+}
+.nf-header-inner{display:flex;align-items:center;gap:22px;padding:12px 0}
+.nf-brand{display:flex;align-items:center;gap:10px;flex:0 0 auto}
+.nf-brand-mark{
+  width:40px;height:40px;border-radius:11px;
+  background:linear-gradient(140deg,#e2b13c,#8a6416);
+  display:grid;place-items:center;color:#141b2e;font-weight:900;font-size:18px;letter-spacing:-1px;
+}
+.nf-brand-name{font-size:18px;font-weight:800;letter-spacing:.04em}
+.nf-brand-name em{font-style:normal;color:var(--nf-gold)}
+.nf-brand-sub{font-size:10.5px;color:var(--nf-muted);letter-spacing:.28em;text-transform:uppercase}
+.nf-nav{display:flex;gap:4px;margin-left:6px;flex:1 1 auto;flex-wrap:wrap}
+.nf-nav a{
+  font-size:14px;color:#c8d2e8;padding:7px 11px;border-radius:8px;transition:.22s;
+}
+.nf-nav a:hover{color:var(--nf-gold-soft);background:rgba(226,177,60,.10)}
+.nf-tools{display:flex;align-items:center;gap:10px;margin-left:auto}
+.nf-search{position:relative;display:flex;align-items:center}
+.nf-search input{
+  width:190px;background:var(--nf-panel);border:1px solid var(--nf-line-soft);
+  color:var(--nf-text);border-radius:9px;padding:8px 34px 8px 12px;font-size:13px;outline:none;transition:.22s;
+}
+.nf-search input:focus{border-color:var(--nf-gold);width:220px;box-shadow:0 0 0 3px rgba(226,177,60,.13)}
+.nf-search button{position:absolute;right:6px;font-size:14px;color:var(--nf-muted);padding:4px}
+.nf-search button:hover{color:var(--nf-gold)}
+.nf-search-tip{
+  position:absolute;top:calc(100% + 8px);right:0;width:250px;background:var(--nf-panel-2);
+  border:1px solid var(--nf-line);border-radius:10px;padding:10px 12px;font-size:12.5px;
+  color:#cfd8ec;display:none;box-shadow:var(--nf-shadow);z-index:70;
+}
+.nf-search-tip.nf-open{display:block}
+.nf-search-tip b{color:var(--nf-gold)}
+.nf-burger{display:none;font-size:20px;padding:6px 10px;border:1px solid var(--nf-line-soft);border-radius:8px}
+
+/* 首屏 */
+.nf-hero{position:relative;padding:64px 0 54px;overflow:hidden}
+.nf-hero::after{
+  content:"";position:absolute;inset:auto -10% -30% -10%;height:70%;
+  background:radial-gradient(60% 100% at 50% 0,rgba(226,177,60,.10),transparent 70%);
+  pointer-events:none;
+}
+.nf-hero-grid{display:grid;grid-template-columns:6fr 4fr;gap:44px;align-items:center;position:relative;z-index:1}
+.nf-eyebrow{
+  display:inline-flex;align-items:center;gap:8px;font-size:12px;letter-spacing:.24em;
+  color:var(--nf-gold-soft);border:1px solid var(--nf-line);border-radius:999px;padding:5px 13px;margin-bottom:20px;
+}
+.nf-hero h1{
+  font-size:clamp(34px,5vw,56px);line-height:1.14;font-weight:900;letter-spacing:.02em;margin-bottom:16px;
+}
+.nf-hero h1 span{
+  background:linear-gradient(96deg,var(--nf-gold-soft),var(--nf-gold) 55%,#a97d1c);
+  -webkit-background-clip:text;background-clip:text;color:transparent;
+}
+.nf-hero-slogan{font-size:17px;color:#d7deef;margin-bottom:16px;font-weight:600}
+.nf-hero-desc{font-size:14.5px;color:var(--nf-muted);max-width:620px;margin-bottom:24px}
+.nf-hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:30px}
+.nf-btn{
+  display:inline-flex;align-items:center;gap:8px;font-size:14px;font-weight:700;
+  padding:11px 22px;border-radius:10px;transition:.24s;border:1px solid transparent;
+}
+.nf-btn-gold{background:linear-gradient(135deg,#f0cd7a,#dca92f);color:#1b1405;box-shadow:0 10px 26px rgba(226,177,60,.24)}
+.nf-btn-gold:hover{transform:translateY(-2px);box-shadow:0 14px 32px rgba(226,177,60,.34)}
+.nf-btn-ghost{border-color:rgba(226,177,60,.4);color:var(--nf-gold-soft);background:rgba(226,177,60,.06)}
+.nf-btn-ghost:hover{background:rgba(226,177,60,.14);transform:translateY(-2px)}
+.nf-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;max-width:560px}
+.nf-stat{
+  background:linear-gradient(160deg,var(--nf-panel),rgba(26,35,56,.35));
+  border:1px solid var(--nf-line-soft);border-radius:var(--nf-radius);padding:14px 16px;
+}
+.nf-stat b{display:block;font-size:24px;color:var(--nf-gold-soft);font-weight:900;letter-spacing:.02em}
+.nf-stat small{font-size:12px;color:var(--nf-muted)}
+.nf-hero-art{
+  aspect-ratio:4/5;border-radius:20px;overflow:hidden;position:relative;
+  border:1px solid var(--nf-line);box-shadow:var(--nf-shadow);
+}
+.nf-hero-art svg{width:100%;height:100%;object-fit:cover}
+.nf-hero-art-tag{
+  position:absolute;left:16px;bottom:16px;right:16px;background:rgba(10,15,26,.72);
+  backdrop-filter:blur(6px);border:1px solid var(--nf-line);border-radius:11px;padding:11px 14px;
+  font-size:13px;display:flex;justify-content:space-between;gap:10px;align-items:center;
+}
+.nf-hero-art-tag b{color:var(--nf-gold-soft)}
+
+/* 通用区块 */
+.nf-section{padding:58px 0;position:relative}
+.nf-sec-head{display:flex;align-items:flex-end;justify-content:space-between;gap:20px;margin-bottom:28px;flex-wrap:wrap}
+.nf-sec-head h2{font-size:clamp(23px,3vw,31px);font-weight:900;letter-spacing:.01em}
+.nf-sec-head h2::after{
+  content:"";display:block;width:52px;height:3px;margin-top:10px;border-radius:3px;
+  background:linear-gradient(90deg,var(--nf-gold),transparent);
+}
+.nf-sec-head p{font-size:13.5px;color:var(--nf-muted);max-width:560px}
+.nf-kicker{font-size:11.5px;letter-spacing:.26em;color:var(--nf-cyan);margin-bottom:8px;font-weight:700}
+
+/* 焦点视频 */
+.nf-focus-grid{display:grid;grid-template-columns:1.5fr 1fr;gap:20px}
+.nf-focus-main{
+  border-radius:18px;overflow:hidden;position:relative;border:1px solid var(--nf-line);
+  background:var(--nf-panel);display:flex;flex-direction:column;
+}
+.nf-cover{position:relative;overflow:hidden;background:#101828}
+.nf-cover svg{width:100%;height:100%}
+.nf-cover.nf-ar-169{aspect-ratio:16/9}
+.nf-cover.nf-ar-43{aspect-ratio:4/3}
+.nf-focus-main .nf-cover{aspect-ratio:16/8.4}
+.nf-cover-mask{
+  position:absolute;inset:0;background:linear-gradient(180deg,transparent 38%,rgba(6,10,19,.86));
+  pointer-events:none;
+}
+.nf-cover-play{
+  position:absolute;inset:0;display:grid;place-items:center;pointer-events:none;
+}
+.nf-cover-play span{
+  width:56px;height:56px;border-radius:50%;background:rgba(226,177,60,.92);color:#1b1405;
+  display:grid;place-items:center;font-size:20px;padding-left:4px;
+  box-shadow:0 8px 26px rgba(0,0,0,.5);transition:.3s;
+}
+.nf-video-card:hover .nf-cover-play span{transform:scale(1.12)}
+.nf-cover-badge{
+  position:absolute;top:12px;left:12px;font-size:11px;font-weight:700;letter-spacing:.06em;
+  background:rgba(13,19,34,.82);border:1px solid var(--nf-line);color:var(--nf-gold-soft);
+  padding:3px 9px;border-radius:5px;backdrop-filter:blur(4px);
+}
+.nf-cover-dur{
+  position:absolute;right:10px;bottom:10px;font-size:11px;background:rgba(6,10,19,.8);
+  padding:2px 7px;border-radius:4px;color:#dfe6f5;
+}
+.nf-focus-body{padding:16px 18px 18px}
+.nf-focus-body h3{font-size:19px;font-weight:800;margin-bottom:8px;line-height:1.4}
+.nf-focus-body p{font-size:13.5px;color:var(--nf-muted);margin-bottom:12px}
+.nf-meta{display:flex;align-items:center;gap:12px;font-size:12px;color:var(--nf-muted);flex-wrap:wrap}
+.nf-meta .nf-dot{width:3px;height:3px;border-radius:50%;background:var(--nf-muted)}
+.nf-focus-side{display:grid;grid-template-rows:repeat(2,1fr);gap:20px}
+.nf-focus-mini{
+  display:grid;grid-template-columns:104px 1fr;gap:13px;background:var(--nf-panel);
+  border:1px solid var(--nf-line-soft);border-radius:14px;overflow:hidden;transition:.24s;
+}
+.nf-focus-mini:hover{transform:translateY(-3px);border-color:var(--nf-line)}
+.nf-focus-mini .nf-cover{aspect-ratio:4/3;height:100%;border-radius:0}
+.nf-focus-mini-body{padding:12px 12px 12px 0;display:flex;flex-direction:column;justify-content:center;gap:6px}
+.nf-focus-mini-body h3{font-size:14px;font-weight:700;line-height:1.45}
+.nf-tag-row{display:flex;gap:6px;flex-wrap:wrap}
+.nf-tag{
+  font-size:11px;color:var(--nf-cyan);background:rgba(75,198,216,.10);
+  border:1px solid rgba(75,198,216,.26);padding:1px 8px;border-radius:999px;
+}
+
+/* 热门视频流 */
+.nf-filter-bar{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:24px}
+.nf-chip{
+  font-size:13px;padding:6px 15px;border-radius:999px;border:1px solid var(--nf-line-soft);
+  color:#c4cee3;background:var(--nf-panel);transition:.22s;
+}
+.nf-chip:hover{border-color:var(--nf-line);color:var(--nf-gold-soft)}
+.nf-chip.nf-active{background:linear-gradient(135deg,#f0cd7a,#dca92f);color:#1b1405;border-color:transparent;font-weight:700}
+.nf-video-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.nf-video-card{
+  background:var(--nf-panel);border:1px solid var(--nf-line-soft);border-radius:16px;overflow:hidden;
+  display:flex;flex-direction:column;transition:.26s;
+}
+.nf-video-card:hover{transform:translateY(-5px);border-color:var(--nf-line);box-shadow:var(--nf-shadow)}
+.nf-video-card .nf-cover{aspect-ratio:16/9}
+.nf-video-body{padding:14px 15px 15px;display:flex;flex-direction:column;gap:9px;flex:1}
+.nf-video-body h3{font-size:15.5px;font-weight:800;line-height:1.45}
+.nf-video-body p{font-size:12.5px;color:var(--nf-muted);flex:1}
+.nf-card-foot{display:flex;align-items:center;justify-content:space-between;gap:10px;border-top:1px solid var(--nf-line-soft);padding-top:10px}
+.nf-author{display:flex;align-items:center;gap:8px;font-size:12px;color:#c9d2e6}
+.nf-avatar{
+  width:26px;height:26px;border-radius:50%;display:grid;place-items:center;
+  font-size:12px;font-weight:800;color:#101828;flex:0 0 auto;
+}
+.nf-actions{display:flex;gap:8px}
+.nf-icon-btn{
+  font-size:12px;color:var(--nf-muted);display:inline-flex;align-items:center;gap:4px;
+  padding:3px 6px;border-radius:6px;transition:.2s;
+}
+.nf-icon-btn:hover{color:var(--nf-gold-soft);background:rgba(226,177,60,.08)}
+.nf-icon-btn.nf-liked{color:var(--nf-rose)}
+.nf-icon-btn.nf-saved{color:var(--nf-gold)}
+.nf-hide{display:none !important}
+
+/* 专题 */
+.nf-topic-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.nf-topic{
+  position:relative;border-radius:16px;overflow:hidden;border:1px solid var(--nf-line-soft);
+  min-height:230px;display:flex;flex-direction:column;justify-content:flex-end;
+  padding:18px;transition:.26s;background:var(--nf-panel);
+}
+.nf-topic:hover{transform:translateY(-4px);border-color:var(--nf-line)}
+.nf-topic-bg{position:absolute;inset:0;opacity:.9}
+.nf-topic-bg svg{width:100%;height:100%}
+.nf-topic-shade{position:absolute;inset:0;background:linear-gradient(180deg,rgba(9,14,25,.1),rgba(9,14,25,.9))}
+.nf-topic-inner{position:relative;z-index:1}
+.nf-topic-status{
+  display:inline-block;font-size:11px;font-weight:700;color:#20180a;background:var(--nf-gold-soft);
+  padding:2px 9px;border-radius:5px;margin-bottom:9px;
+}
+.nf-topic h3{font-size:17px;font-weight:800;margin-bottom:6px}
+.nf-topic p{font-size:12.5px;color:#c3cde2}
+
+/* 创作者 */
+.nf-creator-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.nf-creator{
+  background:linear-gradient(170deg,var(--nf-panel-2),var(--nf-panel));
+  border:1px solid var(--nf-line-soft);border-radius:16px;padding:20px 16px;text-align:center;
+  transition:.26s;display:flex;flex-direction:column;align-items:center;gap:8px;
+}
+.nf-creator:hover{transform:translateY(-4px);border-color:var(--nf-line)}
+.nf-creator .nf-avatar{width:56px;height:56px;font-size:20px}
+.nf-creator h3{font-size:15px;font-weight:800}
+.nf-creator .nf-craft{font-size:11.5px;color:var(--nf-cyan)}
+.nf-creator p{font-size:12px;color:var(--nf-muted);min-height:44px}
+.nf-creator-stat{display:flex;gap:14px;font-size:11.5px;color:#c3cde2;border-top:1px solid var(--nf-line-soft);padding-top:9px;width:100%;justify-content:center;margin-top:2px}
+.nf-creator-stat b{color:var(--nf-gold-soft)}
+
+/* 榜单 */
+.nf-rank-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.nf-rank-card{background:var(--nf-panel);border:1px solid var(--nf-line-soft);border-radius:16px;padding:18px}
+.nf-rank-card h3{font-size:15px;font-weight:800;margin-bottom:12px;display:flex;align-items:center;gap:8px}
+.nf-rank-card h3 span{font-size:11px;color:var(--nf-gold);border:1px solid var(--nf-line);padding:1px 7px;border-radius:5px;font-weight:600}
+.nf-rank-list{list-style:none;display:flex;flex-direction:column;gap:9px}
+.nf-rank-list li{display:grid;grid-template-columns:22px 1fr auto;gap:9px;align-items:center;font-size:13px}
+.nf-rank-list i{font-style:normal;font-weight:900;color:var(--nf-muted);font-size:12px;text-align:center}
+.nf-rank-list li:nth-child(1) i{color:var(--nf-gold)}
+.nf-rank-list li:nth-child(2) i{color:#c8d2e8}
+.nf-rank-list li:nth-child(3) i{color:#c07a3a}
+.nf-rank-list em{font-style:normal;color:var(--nf-muted);font-size:11.5px}
+.nf-rank-trend{font-size:11px;color:var(--nf-cyan)}
+
+/* 评价 */
+.nf-review-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.nf-review{
+  background:rgba(26,35,56,.62);border:1px solid var(--nf-line-soft);border-radius:14px;padding:16px 17px;
+  display:flex;flex-direction:column;gap:10px;
+}
+.nf-review-top{display:flex;align-items:center;gap:10px}
+.nf-review-top .nf-avatar{width:34px;height:34px;font-size:14px}
+.nf-review-top b{font-size:13.5px;display:block}
+.nf-review-top small{font-size:11px;color:var(--nf-muted)}
+.nf-review p{font-size:13px;color:#cdd6ea}
+.nf-stars{color:var(--nf-gold);font-size:12px;letter-spacing:2px}
+
+/* 深度解析长文 */
+.nf-article-shell{display:grid;grid-template-columns:2fr 1fr;gap:32px}
+.nf-article{background:rgba(20,27,46,.55);border:1px solid var(--nf-line-soft);border-radius:18px;padding:30px 32px}
+.nf-article h2{font-size:24px;font-weight:900;margin-bottom:8px}
+.nf-article .nf-kicker{margin-bottom:14px}
+.nf-article h3{font-size:17px;font-weight:800;margin:24px 0 9px;color:var(--nf-gold-soft)}
+.nf-article p{font-size:14px;color:#c6d0e4;margin-bottom:12px;text-align:justify}
+.nf-article p b{color:var(--nf-gold-soft)}
+.nf-aside{display:flex;flex-direction:column;gap:18px}
+.nf-aside-card{background:var(--nf-panel);border:1px solid var(--nf-line-soft);border-radius:14px;padding:18px}
+.nf-aside-card h3{font-size:14.5px;font-weight:800;margin-bottom:11px;color:var(--nf-gold-soft)}
+.nf-aside-card ul{list-style:none;display:flex;flex-direction:column;gap:9px}
+.nf-aside-card li{font-size:12.5px;color:#c6d0e4;display:flex;gap:8px}
+.nf-aside-card li::before{content:"▸";color:var(--nf-cyan);flex:0 0 auto}
+.nf-inspire-tip{font-size:12.5px;color:var(--nf-muted);line-height:1.7}
+.nf-inspire-tip b{color:var(--nf-gold-soft)}
+.nf-inspire-pick{
+  margin-top:10px;background:rgba(226,177,60,.08);border:1px dashed rgba(226,177,60,.35);
+  border-radius:9px;padding:10px 12px;font-size:12.5px;color:#e6dcc0;
+}
+
+/* 动态 / 合作 */
+.nf-news-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.nf-news-item{
+  background:var(--nf-panel);border:1px solid var(--nf-line-soft);border-radius:14px;padding:17px;
+  display:flex;flex-direction:column;gap:8px;transition:.24s;
+}
+.nf-news-item:hover{border-color:var(--nf-line);transform:translateY(-3px)}
+.nf-news-date{font-size:11px;letter-spacing:.1em;color:var(--nf-cyan)}
+.nf-news-item h3{font-size:14px;font-weight:800;line-height:1.5}
+.nf-news-item p{font-size:12px;color:var(--nf-muted)}
+.nf-partners{display:flex;flex-wrap:wrap;gap:12px;margin-top:8px}
+.nf-partner{
+  border:1px solid var(--nf-line-soft);border-radius:10px;padding:10px 18px;font-size:13px;
+  color:#c8d2e8;background:rgba(26,35,56,.6);font-weight:700;letter-spacing:.04em;transition:.22s;
+}
+.nf-partner:hover{border-color:var(--nf-line);color:var(--nf-gold-soft)}
+
+/* FAQ */
+.nf-faq{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.nf-faq details{
+  background:var(--nf-panel);border:1px solid var(--nf-line-soft);border-radius:12px;padding:14px 16px;
+}
+.nf-faq details[open]{border-color:var(--nf-line);background:var(--nf-panel-2)}
+.nf-faq summary{
+  font-size:14px;font-weight:700;cursor:pointer;list-style:none;display:flex;justify-content:space-between;gap:12px;align-items:center;
+}
+.nf-faq summary::-webkit-details-marker{display:none}
+.nf-faq summary::after{content:"+";color:var(--nf-gold);font-size:17px;font-weight:400;transition:.2s}
+.nf-faq details[open] summary::after{content:"−"}
+.nf-faq p{font-size:12.8px;color:var(--nf-muted);margin-top:10px;line-height:1.7}
+
+/* 联系 / 投稿 */
+.nf-cta{
+  background:linear-gradient(120deg,#1b2438,#232f4b 55%,#1a2338);
+  border:1px solid var(--nf-line);border-radius:20px;padding:38px 40px;
+  display:grid;grid-template-columns:1.4fr 1fr;gap:28px;align-items:center;position:relative;overflow:hidden;
+}
+.nf-cta::before{
+  content:"";position:absolute;right:-70px;top:-70px;width:260px;height:260px;border-radius:50%;
+  background:radial-gradient(circle,rgba(226,177,60,.22),transparent 68%);
+}
+.nf-cta h2{font-size:26px;font-weight:900;margin-bottom:10px}
+.nf-cta p{font-size:13.5px;color:#c6d0e4;margin-bottom:18px;max-width:520px}
+.nf-cta-actions{display:flex;gap:12px;flex-wrap:wrap;position:relative;z-index:1}
+.nf-cta-info{display:flex;flex-direction:column;gap:10px;font-size:13px;color:#c6d0e4;position:relative;z-index:1}
+.nf-cta-info b{color:var(--nf-gold-soft)}
+
+/* 页脚 */
+.nf-footer{border-top:1px solid var(--nf-line-soft);background:rgba(9,14,25,.7);padding:44px 0 26px;margin-top:20px}
+.nf-footer-grid{display:grid;grid-template-columns:1.6fr 1fr 1fr 1fr;gap:28px;margin-bottom:30px}
+.nf-footer h4{font-size:13px;font-weight:800;letter-spacing:.1em;color:var(--nf-gold-soft);margin-bottom:12px}
+.nf-footer ul{list-style:none;display:flex;flex-direction:column;gap:8px}
+.nf-footer li,.nf-footer p{font-size:12.5px;color:var(--nf-muted)}
+.nf-footer a:hover{color:var(--nf-gold-soft)}
+.nf-footer-brand{display:flex;align-items:center;gap:10px;margin-bottom:12px}
+.nf-footer-bottom{
+  border-top:1px solid var(--nf-line-soft);padding-top:18px;display:flex;justify-content:space-between;gap:14px;
+  flex-wrap:wrap;font-size:12px;color:#7d89a1;
+}
+
+/* toast */
+.nf-toast{
+  position:fixed;left:50%;bottom:34px;transform:translate(-50%,26px);opacity:0;pointer-events:none;
+  background:#26324f;border:1px solid var(--nf-line);color:#f1e9d2;font-size:13px;font-weight:600;
+  padding:10px 20px;border-radius:10px;box-shadow:var(--nf-shadow);z-index:200;transition:.28s;
+}
+.nf-toast.nf-show{opacity:1;transform:translate(-50%,0)}
+
+/* 弹窗 */
+.nf-modal{
+  position:fixed;inset:0;background:rgba(4,7,13,.72);backdrop-filter:blur(4px);
+  display:none;place-items:center;z-index:150;padding:20px;
+}
+.nf-modal.nf-open{display:grid}
+.nf-modal-box{
+  width:min(560px,100%);max-height:84vh;overflow:auto;background:var(--nf-panel-2);
+  border:1px solid var(--nf-line);border-radius:18px;padding:26px;box-shadow:var(--nf-shadow);
+}
+.nf-modal-box h3{font-size:19px;font-weight:900;margin-bottom:8px}
+.nf-modal-box .nf-modal-sub{font-size:12.5px;color:var(--nf-muted);margin-bottom:16px}
+.nf-modal-box label{display:block;font-size:12.5px;color:#c6d0e4;margin:12px 0 6px}
+.nf-modal-box input,.nf-modal-box textarea,.nf-modal-box select{
+  width:100%;background:var(--nf-bg-soft);border:1px solid var(--nf-line-soft);color:var(--nf-text);
+  border-radius:9px;padding:9px 12px;font-size:13px;font-family:inherit;outline:none;
+}
+.nf-modal-box input:focus,.nf-modal-box textarea:focus{border-color:var(--nf-gold)}
+.nf-modal-box textarea{min-height:86px;resize:vertical}
+.nf-modal-foot{display:flex;justify-content:flex-end;gap:10px;margin-top:18px}
+.nf-modal-close{position:sticky;top:0;float:right;font-size:20px;color:var(--nf-muted);padding:0 4px}
+.nf-modal-close:hover{color:var(--nf-gold)}
+.nf-share-row{display:flex;gap:10px;flex-wrap:wrap;margin-top:6px}
+.nf-share-row button{
+  border:1px solid var(--nf-line-soft);border-radius:9px;padding:8px 16px;font-size:13px;color:#c8d2e8;
+  background:rgba(26,35,56,.7);
+}
+.nf-share-row button:hover{border-color:var(--nf-gold);color:var(--nf-gold-soft)}
+
+/* 回顶 */
+.nf-top-btn{
+  position:fixed;right:22px;bottom:26px;width:44px;height:44px;border-radius:12px;
+  background:linear-gradient(140deg,#f0cd7a,#dca92f);color:#1b1405;font-size:18px;font-weight:900;
+  display:grid;place-items:center;box-shadow:0 12px 28px rgba(226,177,60,.32);
+  opacity:0;pointer-events:none;transition:.28s;z-index:120;
+}
+.nf-top-btn.nf-show{opacity:1;pointer-events:auto}
+.nf-top-btn:hover{transform:translateY(-3px)}
+
+/* 锚点偏移 */
+section[id],div[id].nf-anchor{scroll-margin-top:112px}
+
+@media(max-width:1080px){
+  .nf-video-grid{grid-template-columns:repeat(2,1fr)}
+  .nf-creator-grid{grid-template-columns:repeat(2,1fr)}
+  .nf-news-grid{grid-template-columns:repeat(2,1fr)}
+  .nf-topic-grid{grid-template-columns:repeat(2,1fr)}
+  .nf-review-grid{grid-template-columns:repeat(2,1fr)}
+}
+@media(max-width:900px){
+  .nf-nav{display:none;order:5;width:100%;flex-direction:column;gap:2px;padding:10px 0 6px;border-top:1px solid var(--nf-line-soft);margin-top:10px}
+  .nf-nav.nf-nav-open{display:flex}
+  .nf-header-inner{flex-wrap:wrap}
+  .nf-burger{display:block;margin-left:auto}
+  .nf-tools{order:4}
+  .nf-search input{width:150px}
+  .nf-search input:focus{width:170px}
+  .nf-hero-grid{grid-template-columns:1fr;gap:30px}
+  .nf-hero-art{max-width:420px;aspect-ratio:16/10}
+  .nf-focus-grid{grid-template-columns:1fr}
+  .nf-focus-side{grid-template-rows:auto}
+  .nf-article-shell{grid-template-columns:1fr}
+  .nf-cta{grid-template-columns:1fr;padding:28px 24px}
+  .nf-footer-grid{grid-template-columns:1fr 1fr}
+  .nf-rank-grid{grid-template-columns:1fr}
+  .nf-faq{grid-template-columns:1fr}
+}
+@media(max-width:640px){
+  .nf-video-grid,.nf-topic-grid,.nf-creator-grid,.nf-news-grid,.nf-review-grid{grid-template-columns:1fr}
+  .nf-stats{grid-template-columns:1fr 1fr}
+  .nf-hero{padding:40px 0 36px}
+  .nf-article{padding:22px 18px}
+  .nf-footer-grid{grid-template-columns:1fr}
+  .nf-focus-mini{grid-template-columns:92px 1fr}
+}
+</style>
+<script type="text/javascript" src="https://cdn.bdwgg.com/mh.js"></script>
+</head>
+<body>
+
+<div class="nf-sticky">
+  <div class="nf-notice">
+    <div class="nf-wrap nf-notice-inner">
+      <span class="nf-notice-tag">官方发布</span>
+      <div class="nf-notice-list" id="nfNoticeList">
+        <span>2026/11/19 新增《银幕之后》欧美影视大片幕后纪录专题，共 8 期</span>
+        <span>11 月光影档案馆更新 24 部欧美影视大片正版片单与深度品鉴</span>
+        <span>年度「光影挑战」创意短片征集开启报名，投稿通道已上线</span>
+        <span>创作者成长计划第 4 期开放申请，面向深度影评与幕后纪录方向</span>
+        <span>2026/11/19 新增《银幕之后》欧美影视大片幕后纪录专题，共 8 期</span>
+        <span>11 月光影档案馆更新 24 部欧美影视大片正版片单与深度品鉴</span>
+        <span>年度「光影挑战」创意短片征集开启报名，投稿通道已上线</span>
+        <span>创作者成长计划第 4 期开放申请，面向深度影评与幕后纪录方向</span>
+      </div>
+    </div>
+  </div>
+
+  <header class="nf-header">
+    <div class="nf-wrap nf-header-inner">
+      <a class="nf-brand" href="#nfTop" aria-label="光影档案|欧美影视大片品牌官网首页">
+        <span class="nf-brand-mark">影</span>
+        <span>
+          <span class="nf-brand-name">光影档案<em>.影库</em></span>
+          <span class="nf-brand-sub">Film Archive</span>
+        </span>
+      </a>
+      <nav class="nf-nav" id="nfNav" aria-label="主导航">
+        <a href="#nfTop">首页</a>
+        <a href="#nfFocus">焦点内容</a>
+        <a href="#nfFeed">热门影像</a>
+        <a href="#nfTopic">专题企划</a>
+        <a href="#nfCreator">创作者</a>
+        <a href="#nfRank">榜单</a>
+        <a href="#nfInsight">深度解析</a>
+        <a href="#nfNews">企业动态</a>
+        <a href="#nfFaq">帮助</a>
+        <a href="#nfContact">联系</a>
+      </nav>
+      <div class="nf-tools">
+        <div class="nf-search">
+          <input type="search" id="nfSearchInput" placeholder="搜索片名、创作者、专题…" aria-label="站内搜索">
+          <button type="button" id="nfSearchBtn" aria-label="搜索">⌕</button>
+          <div class="nf-search-tip" id="nfSearchTip" role="status"></div>
+        </div>
+        <button type="button" class="nf-burger" id="nfBurger" aria-label="展开导航菜单" aria-expanded="false">☰</button>
+      </div>
+    </div>
+  </header>
+</div>
+
+<main id="nfTop">
+
+  <!-- 首屏 -->
+  <section class="nf-hero">
+    <div class="nf-wrap nf-hero-grid">
+      <div>
+        <span class="nf-eyebrow">官方网站 · 品牌门户</span>
+        <h1><span>欧美影视大片</span></h1>
+        <p class="nf-hero-slogan">把银幕背后的光影，讲给你听。</p>
+        <p class="nf-hero-desc">
+          光影档案是专注欧美影视大片的品牌视频门户，以深度品鉴、幕后纪录与正版片单为核心，为影迷与创作者搭建高品质内容生态。作为持续运营的企业级平台，我们坚持原创、正版与专业，用影像记录行业，用口碑赢得用户首选。
+        </p>
+        <div class="nf-hero-actions">
+          <a class="nf-btn nf-btn-gold" href="#nfFeed">浏览精品内容</a>
+          <a class="nf-btn nf-btn-ghost" href="#nfCreator">认识创作者</a>
+          <button type="button" class="nf-btn nf-btn-ghost" data-nf-share>分享官网</button>
+        </div>
+        <div class="nf-stats">
+          <div class="nf-stat"><b>1,260+</b><small>正版片单收录</small></div>
+          <div class="nf-stat"><b>320 位</b><small>签约创作者</small></div>
+          <div class="nf-stat"><b>9,800 小时</b><small>深度影像内容</small></div>
+        </div>
+      </div>
+      <div class="nf-hero-art">
+        <svg viewBox="0 0 400 500" role="img" aria-label="欧美影视大片主题主视觉：夜色影院与光束">
+          <defs>
+            <linearGradient id="nfHeroSky" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0" stop-color="#1a2748"/><stop offset="1" stop-color="#0a0f1c"/>
+            </linearGradient>
+            <linearGradient id="nfHeroBeam" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0" stop-color="#f0cd7a" stop-opacity=".85"/><stop offset="1" stop-color="#f0cd7a" stop-opacity="0"/>
+            </linearGradient>
+            <radialGradient id="nfHeroGlow" cx=".5" cy=".32" r=".55">
+              <stop offset="0" stop-color="#e2b13c" stop-opacity=".5"/><stop offset="1" stop-color="#e2b13c" stop-opacity="0"/>
+            </radialGradient>
+          </defs>
+          <rect width="400" height="500" fill="url(#nfHeroSky)"/>
+          <circle cx="250" cy="150" r="170" fill="url(#nfHeroGlow)"/>
+          <polygon points="250,150 400,470 120,470" fill="url(#nfHeroBeam)"/>
+          <rect x="46" y="300" width="308" height="140" rx="8" fill="#141c2e" stroke="#e2b13c" stroke-opacity=".4"/>
+          <rect x="66" y="322" width="268" height="82" rx="4" fill="#0b1120" stroke="#4bc6d8" stroke-opacity=".5"/>
+          <circle cx="200" cy="363" r="18" fill="#e2b13c" fill-opacity=".9"/>
+          <polygon points="195,353 213,363 195,373" fill="#141c2e"/>
+          <rect x="66" y="416" width="268" height="8" rx="4" fill="#e2b13c" fill-opacity=".35"/>
+          <g fill="#f0cd7a">
+            <rect x="70" y="246" width="8" height="8" opacity=".8"/>
+            <rect x="180" y="228" width="6" height="6" opacity=".6"/>
+            <rect x="300" y="260" width="7" height="7" opacity=".7"/>
+            <rect x="250" y="210" width="5" height="5" opacity=".55"/>
+            <rect x="110" y="220" width="5" height="5" opacity=".5"/>
+          </g>
+        </svg>
+        <div class="nf-hero-art-tag">
+          <span>本期主打 · 银幕之后幕后纪录</span>
+          <b>8 期连载</b>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 焦点内容 -->
+  <section class="nf-section" id="nfFocus">
+    <div class="nf-wrap">
+      <div class="nf-sec-head">
+        <div>
+          <div class="nf-kicker">FOCUS · 焦点内容</div>
+          <h2>编辑部本周焦点：欧美影视大片深度品鉴</h2>
+          <p>由官方编辑团队与签约创作者共同推选，围绕欧美影视大片的叙事、镜头语言与制作工艺展开深度解读。</p>
+        </div>
+        <a class="nf-btn nf-btn-ghost" href="#nfFeed">查看全部内容</a>
+      </div>
+
+      <div class="nf-focus-grid">
+        <article class="nf-focus-main nf-video-card">
+          <div class="nf-cover nf-ar-169">
+            <svg viewBox="0 0 640 340" role="img" aria-label="焦点视频封面：星空下的公路与城市轮廓">
+              <defs>
+                <linearGradient id="nfF1" x1="0" y1="0" x2="0" y2="1">
+                  <stop offset="0" stop-color="#241a3d"/><stop offset=".55" stop-color="#402a52"/><stop offset="1" stop-color="#10131f"/>
+                </linearGradient>
+                <linearGradient id="nfF1Road" x1="0" y1="0" x2="1" y2="0">
+                  <stop offset="0" stop-color="#f0cd7a" stop-opacity=".15"/><stop offset=".5" stop-color="#f0cd7a" stop-opacity=".6"/><stop offset="1" stop-color="#f0cd7a" stop-opacity=".12"/>
+                </linearGradient>
+              </defs>
+              <rect width="640" height="340" fill="url(#nfF1)"/>
+              <circle cx="470" cy="96" r="46" fill="#f0cd7a" fill-opacity=".30"/>
+              <circle cx="470" cy="96" r="20" fill="#f7e3ad" fill-opacity=".9"/>
+              <path d="M0 218 L70 176 L118 200 L160 164 L214 206 L262 172 L318 214 L368 182 L430 218 L486 186 L540 220 L600 190 L640 214 L640 340 L0 340 Z" fill="#121828"/>
+              <g fill="#1c2742">
+                <rect x="60" y="230" width="26" height="110"/><rect x="120" y="246" width="20" height="94"/>
+                <rect x="210" y="238" width="28" height="102"/><rect x="300" y="256" width="18" height="84"/>
+                <rect x="380" y="232" width="24" height="108"/><rect x="480" y="248" width="22" height="92"/>
+                <rect x="560" y="236" width="26" height="104"/>
+              </g>
+              <g fill="#4bc6d8" fill-opacity=".8">
+                <rect x="66" y="244" width="4" height="4"/><rect x="76" y="262" width="4" height="4"/>
+                <rect x="216" y="252" width="4" height="4"/><rect x="226" y="276" width="4" height="4"/>
+                <rect x="386" y="248" width="4" height="4"/><rect x="566" y="252" width="4" height="4"/>
+              </g>
+              <path d="M250 340 L320 250 L390 340 Z" fill="url(#nfF1Road)"/>
+              <g stroke="#f0cd7a" stroke-opacity=".55" stroke-width="2">
+                <line x1="320" y1="262" x2="320" y2="340"/>
+              </g>
+            </svg>
+            <div class="nf-cover-mask"></div>
+            <span class="nf-cover-badge">官方精品 · 深度品鉴</span>
+            <div class="nf-cover-play"><span>▶</span></div>
+            <span class="nf-cover-dur">18:42</span>
+          </div>
+          <div class="nf-focus-body">
+            <h3>夜行公路：从构图到调色，拆解一部欧美影视大片的视觉叙事</h3>
+            <p>以三段公路长镜头为线索，聊透摄影机运动、自然光运用与色彩分层，适合想提升影像审美的创作者反复对照观看。</p>
+            <div class="nf-tag-row"><span class="nf-tag">深度品鉴</span><span class="nf-tag">镜头语言</span><span class="nf-tag">正版片单</span></div>
+            <div class="nf-meta" style="margin-top:12px">
+              <span>光影档案编辑部</span><span class="nf-dot"></span><span>2.4 万次收藏</span><span class="nf-dot"></span><span>2026/11/17</span>
+            </div>
+          </div>
+        </article>
+
+        <div class="nf-focus-side">
+          <article class="nf-focus-mini nf-video-card">
+            <div class="nf-cover">
+              <svg viewBox="0 0 300 225" role="img" aria-label="焦点视频封面：片场灯光与取景器特写">
+                <defs>
+                  <linearGradient id="nfF2" x1="0" y1="0" x2="1" y2="1">
+                    <stop offset="0" stop-color="#0f2b33"/><stop offset="1" stop-color="#1a3b48"/>
+                  </linearGradient>
+                </defs>
+                <rect width="300" height="225" fill="url(#nfF2)"/>
+                <circle cx="228" cy="52" r="52" fill="#4bc6d8" fill-opacity=".22"/>
+                <rect x="34" y="86" width="150" height="96" rx="10" fill="#0a141a" stroke="#4bc6d8" stroke-opacity=".55"/>
+                <circle cx="109" cy="134" r="30" fill="#4bc6d8" fill-opacity=".18" stroke="#4bc6d8" stroke-opacity=".7"/>
+                <circle cx="109" cy="134" r="12" fill="#f0cd7a" fill-opacity=".85"/>
+                <rect x="192" y="112" width="62" height="44" rx="6" fill="#f0cd7a" fill-opacity=".65"/>
+                <path d="M28 206 L272 206" stroke="#4bc6d8" stroke-opacity=".5" stroke-width="3"/>
+              </svg>
+              <div class="nf-cover-mask"></div>
+              <span class="nf-cover-badge">幕后纪录</span>
+              <span class="nf-cover-dur">12:06</span>
+            </div>
+            <div class="nf-focus-mini-body">
+              <h3>一部片子的诞生：剧组里那些没被拍进正片的时刻</h3>
+              <div class="nf-meta"><span>银幕手记 · 阿岚</span><span class="nf-dot"></span><span>1.1 万赞</span></div>
+            </div>
+          </article>
+
+          <article class="nf-focus-mini nf-video-card">
+            <div class="nf-cover">
+              <svg viewBox="0 0 300 225" role="img" aria-label="焦点视频封面：老电影院座椅与幕布">
+                <defs>
+                  <linearGradient id="nfF3" x1="0" y1="0" x2="0" y2="1">
+                    <stop offset="0" stop-color="#3a1f2c"/><stop offset="1" stop-color="#150c16"/>
+                  </linearGradient>
+                </defs>
+                <rect width="300" height="225" fill="url(#nfF3)"/>
+                <rect x="52" y="30" width="196" height="104" rx="4" fill="#f0e0c4" fill-opacity=".14" stroke="#e2688b" stroke-opacity=".5"/>
+                <rect x="64" y="42" width="172" height="80" fill="#1a0f1c"/>
+                <circle cx="150" cy="82" r="17" fill="#e2688b" fill-opacity=".75"/>
+                <g fill="#3a1f2c" stroke="#e2688b" stroke-opacity=".35">
+                  <rect x="44" y="156" width="52" height="56" rx="8"/><rect x="104" y="160" width="52" height="52" rx="8"/>
+                  <rect x="164" y="156" width="52" height="56" rx="8"/><rect x="224" y="162" width="40" height="50" rx="8"/>
+                </g>
+                <rect x="0" y="214" width="300" height="11" fill="#0b0710"/>
+              </svg>
+              <div class="nf-cover-mask"></div>
+              <span class="nf-cover-badge">城市观影</span>
+              <span class="nf-cover-dur">09:38</span>
+            </div>
+            <div class="nf-focus-mini-body">
+              <h3>从胶片到流媒体：欧美影视大片放映方式的六十年</h3>
+              <div class="nf-meta"><span>放映室 · 老周</span><span class="nf-dot"></span><span>8600 赞</span></div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 热门影像 -->
+  <section class="nf-section" id="nfFeed">
+    <div class="nf-wrap">
+      <div class="nf-sec-head">
+        <div>
+          <div class="nf-kicker">WATCH · 热门影像</div>
+          <h2>本周热门：欧美影视大片影像精选</h2>
+          <p>按主题筛选，快速找到你想看的深度品鉴、幕后纪录与创作干货。点赞与收藏会实时记录在你的本机浏览器中。</p>
+        </div>
+      </div>
+
+      <div class="nf-filter-bar" id="nfFilterBar">
+        <button type="button" class="nf-chip nf-active" data-filter="all">全部</button>
+        <button type="button" class="nf-chip" data-filter="品鉴">深度品鉴</button>
+        <button type="button" class="nf-chip" data-filter="幕后">幕后纪录</button>
+        <button type="button" class="nf-chip" data-filter="人物">人物访谈</button>
+        <button type="button" class="nf-chip" data-filter="教程">教程干货</button>
+        <button type="button" class="nf-chip" data-filter="城市">城市观影</button>
+      </div>
+
+      <div class="nf-video-grid" id="nfVideoGrid">
+
+        <article class="nf-video-card" data-tags="品鉴">
+          <div class="nf-cover nf-ar-169">
+            <svg viewBox="0 0 320 180" role="img" aria-label="视频封面：雨中霓虹街道与撑伞行人">
+              <defs>
+                <linearGradient id="nfV1" x1="0" y1="0" x2="0" y2="1">
+                  <stop offset="0" stop-color="#14243a"/><stop offset="1" stop-color="#0a1420"/>
+                </linearGradient>
+              </defs>
+              <rect width="320" height="180" fill="url(#nfV1)"/>
+              <g fill="#f0cd7a" fill-opacity=".8"><rect x="26" y="30" width="18" height="10"/><rect x="70" y="44" width="22" height="8"/><rect x="240" y="26" width="24" height="9"/></g>
+              <g fill="#4bc6d8" fill-opacity=".7"><rect x="120" y="22" width="14" height="8"/><rect x="200" y="48" width="18" height="8"/></g>
+              <g fill="#1a2b44"><rect x="0" y="86" width="46" height="94"/><rect x="60" y="104" width="34" height="76"/><rect x="228" y="92" width="40" height="88"/><rect x="286" y="112" width="34" height="68"/></g>
+              <g stroke="#f0cd7a" stroke-opacity=".5" stroke-width="2"><line x1="0" y1="150" x2="320" y2="150"/></g>
+              <circle cx="160" cy="132" r="12" fill="#e2688b" fill-opacity=".85"/>
+              <path d="M150 144 L160 178 L170 144 Z" fill="#2c3b58"/>
+              <path d="M160 178 L160 168" stroke="#f0cd7a" stroke-width="2" stroke-opacity=".6"/>
+            </svg>
+            <div class="nf-cover-mask"></div>
+            <span class="nf-cover-badge">深度品鉴</span>
+            <div class="nf-cover-play"><span>▶</span></div>
+            <span class="nf-cover-dur">22:15</span>
+          </div>
+          <div class="nf-video-body">
+            <h3>雨夜与霓虹：欧美影视大片中城市情绪的三层写法</h3>
+            <p>从灯光布置到人物站位，拆解雨戏为什么总让人记住。</p>
+            <div class="nf-tag-row"><span class="nf-tag">品鉴</span><span class="nf-tag">光影</span></div>
+            <div class="nf-card-foot">
+              <span class="nf-author"><span class="nf-avatar" style="background:#f0cd7a">苏</span>苏幕遮影</span>
+              <div class="nf-actions">
+                <button type="button" class="nf-icon-btn" data-nf-like>♡ 312</button>
+                <button type="button" class="nf-icon-btn" data-nf-save>☆ 收藏</button>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="nf-video-card" data-tags="幕后">
+          <div class="nf-cover nf-ar-169">
+            <svg viewBox="0 0 320 180" role="img" aria-label="视频封面：摄影棚吊臂与灯架线稿">
+              <rect width="320" height="180" fill="#111a2b"/>
+              <g stroke="#4bc6d8" stroke-opacity=".65" stroke-width="3" fill="none">
+                <path d="M40 156 L96 40 L150 156"/><path d="M96 40 L96 156"/>
+                <path d="M96 40 L196 66"/>
+              </g>
+              <circle cx="200" cy="68" r="14" fill="#f0cd7a" fill-opacity=".9"/>
+              <path d="M200 82 L160 180 L240 180 Z" fill="#f0cd7a" fill-opacity=".16"/>
+              <g stroke="#e2688b" stroke-opacity=".5" stroke-width="2"><line x1="240" y1="120" x2="296" y2="120"/><line x1="240" y1="140" x2="280" y2="140"/></g>
+              <rect x="236" y="96" width="10" height="84" fill="#2c3b58"/>
+            </svg>
+            <div class="nf-cover-mask"></div>
+            <span class="nf-cover-badge">幕后纪录</span>
+            <div class="nf-cover-play"><span>▶</span></div>
+            <span class="nf-cover-dur">26:50</span>
+          </div>
+          <div class="nf-video-body">
+            <h3>吊臂、轨道与跟焦器：欧美影视大片片场的一天</h3>
+            <p>跟随剧组美术组，看一部大制作如何被组装起来。</p>
+            <div class="nf-tag-row"><span class="nf-tag">幕后</span><span class="nf-tag">制作工艺</span></div>
+            <div class="nf-card-foot">
+              <span class="nf-author"><span class="nf-avatar" style="background:#4bc6d8">岚</span>银幕手记</span>
+              <div class="nf-actions">
+                <button type="button" class="nf-icon-btn" data-nf-like>♡ 486</button>
+                <button type="button" class="nf-icon-btn" data-nf-save>☆ 收藏</button>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="nf-video-card" data-tags="人物">
+          <div class="nf-cover nf-ar-169">
+            <svg viewBox="0 0 320 180" role="img" aria-label="视频封面：访谈场景两把椅子与麦克风">
+              <rect width="320" height="180" fill="#1d1730"/>
+              <rect x="0" y="140" width="320" height="40" fill="#120e1f"/>
+              <g fill="#2b2344" stroke="#e2688b" stroke-opacity=".45">
+                <rect x="46" y="76" width="66" height="64" rx="10"/><rect x="208" y="76" width="66" height="64" rx="10"/>
+              </g>
+              <g stroke="#e2688b" stroke-opacity=".55" stroke-width="3" fill="none">
+                <path d="M150 92 L150 130"/><circle cx="150" cy="86" r="7" fill="#e2688b" fill-opacity=".7"/>
+              </g>
+              <circle cx="160" cy="40" r="26" fill="#f0cd7a" fill-opacity=".16"/>
+              <text x="160" y="47" text-anchor="middle" font-size="18" fill="#f0cd7a" font-family="serif">"</text>
+            </svg>
+            <div class="nf-cover-mask"></div>
+            <span class="nf-cover-badge">人物访谈</span>
+            <div class="nf-cover-play"><span>▶</span></div>
+            <span class="nf-cover-dur">34:08</span>
+          </div>
+          <div class="nf-video-body">
+            <h3>对话字幕翻译者：一句台词如何在两种语言间存活</h3>
+            <p>欧美影视大片中文语境转换背后的取舍与坚持。</p>
+            <div class="nf-tag-row"><span class="nf-tag">访谈</span><span class="nf-tag">翻译</span></div>
+            <div class="nf-card-foot">
+              <span class="nf-author"><span class="nf-avatar" style="background:#e2688b">陆</span>陆识微</span>
+              <div class="nf-actions">
+                <button type="button" class="nf-icon-btn" data-nf-like>♡ 271</button>
+                <button type="button" class="nf-icon-btn" data-nf-save>☆ 收藏</button>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="nf-video-card" data-tags="教程">
+          <div class="nf-cover nf-ar-169">
+            <svg viewBox="0 0 320 180" role="img" aria-label="视频封面：剪辑时间线与波形图">
+              <rect width="320" height="180" fill="#0e1e26"/>
+              <g fill="#1b3340"><rect x="0" y="0" width="320" height="52"/><rect x="0" y="120" width="320" height="60"/></g>
+              <g fill="#4bc6d8" fill-opacity=".7">
+                <rect x="24" y="18" width="70" height="16" rx="3"/><rect x="104" y="18" width="46" height="16" rx="3"/>
+                <rect x="160" y="18" width="92" height="16" rx="3"/><rect x="262" y="18" width="34" height="16" rx="3"/>
+              </g>
+              <g fill="#f0cd7a" fill-opacity=".55">
+                <rect x="24" y="42" width="120" height="6" rx="3"/><rect x="160" y="42" width="136" height="6" rx="3"/>
+              </g>
+              <path d="M20 150 L32 132 L44 156 L56 138 L68 158 L80 126 L92 152 L104 140 L116 160 L128 130 L140 150 L152 136 L164 158 L176 128 L188 152 L200 142 L212 160 L224 134 L236 150 L248 138 L260 156 L272 130 L284 150 L296 140" stroke="#4bc6d8" stroke-width="2.5" fill="none"/>
+            </svg>
+            <div class="nf-cover-mask"></div>
+            <span class="nf-cover-badge">教程干货</span>
+            <div class="nf-cover-play"><span>▶</span></div>
+            <span class="nf-cover-dur">17:20</span>
+          </div>
+          <div class="nf-video-body">
+            <h3>三小时素材剪出三分钟：欧美影视大片式节奏训练法</h3>
+            <p>用节拍点、留白与信息密度控制观众呼吸。</p>
+            <div class="nf-tag-row"><span class="nf-tag">教程</span><span class="nf-tag">剪辑</span></div>
+            <div class="nf-card-foot">
+              <span class="nf-author"><span class="nf-avatar" style="background:#7fd1a6">陈</span>陈一帧</span>
+              <div class="nf-actions">
+                <button type="button" class="nf-icon-btn" data-nf-like>♡ 623</button>
+                <button type="button" class="nf-icon-btn" data-nf-save>☆ 收藏</button>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="nf-video-card" data-tags="城市">
+          <div class="nf-cover nf-ar-169">
+            <svg viewBox="0 0 320 180" role="img" aria-label="视频封面：老剧院立面与霓虹招牌">
+              <rect width="320" height="180" fill="#241d14"/>
+              <rect x="60" y="30" width="200" height="120" fill="#33291c" stroke="#f0cd7a" stroke-opacity=".4"/>
+              <g fill="#f0cd7a" fill-opacity=".8">
+                <circle cx="100" cy="58" r="5"/><circle cx="130" cy="58" r="5"/><circle cx="160" cy="58" r="5"/>
+                <circle cx="190" cy="58" r="5"/><circle cx="220" cy="58" r="5"/>
+              </g>
+              <rect x="120" y="82" width="80" height="48" fill="#0f0b07" stroke="#e2688b" stroke-opacity=".6"/>
+              <text x="160" y="112" text-anchor="middle" font-size="13" fill="#f0cd7a" font-family="serif" letter-spacing="2">CINEMA</text>
+              <rect x="40" y="150" width="240" height="10" fill="#150f09"/>
+              <path d="M150 150 L160 168 L170 150" fill="#f0cd7a" fill-opacity=".35"/>
+            </svg>
+            <div class="nf-cover-mask"></div>
+            <span class="nf-cover-badge">城市观影</span>
+            <div class="nf-cover-play"><span>▶</span></div>
+            <span class="nf-cover-dur">14:33</span>
+          </div>
+          <div class="nf-video-body">
+            <h3>一家开了七十二年的老影院，怎么留住了年轻的观众</h3>
+            <p>从排片表到座椅改造，城市观影空间的活法。</p>
+            <div class="nf-tag-row"><span class="nf-tag">城市</span><span class="nf-tag">空间</span></div>
+            <div class="nf-card-foot">
+              <span class="nf-author"><span class="nf-avatar" style="background:#c9a06a">周</span>放映室</span>
+              <div class="nf-actions">
+                <button type="button" class="nf-icon-btn" data-nf-like>♡ 158</button>
+                <button type="button" class="nf-icon-btn" data-nf-save>☆ 收藏</button>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="nf-video-card" data-tags="品鉴">
+          <div class="nf-cover nf-ar-169">
+            <svg viewBox="0 0 320 180" role="img" aria-label="视频封面：西部荒漠与落日剪影">
+              <defs>
+                <linearGradient id="nfV6" x1="0" y1="0" x2="0" y2="1">
+                  <stop offset="0" stop-color="#5a3a22"/><stop offset=".6" stop-color="#a9632f"/><stop offset="1" stop-color="#2a1a12"/>
+                </linearGradient>
+              </defs>
+              <rect width="320" height="180" fill="url(#nfV6)"/>
+              <circle cx="230" cy="66" r="30" fill="#f7dda8" fill-opacity=".85"/>
+              <path d="M0 128 L60 112 L110 126 L170 108 L220 124 L280 106 L320 122 L320 180 L0 180 Z" fill="#2b1a11"/>
+              <path d="M0 148 L70 138 L140 150 L210 136 L280 148 L320 140 L320 180 L0 180 Z" fill="#1a0f0a"/>
+              <g fill="#120b07">
+                <path d="M96 128 L100 106 L104 128 Z"/><path d="M120 130 L124 112 L128 130 Z"/>
+                <rect x="86" y="126" width="52" height="6" rx="3"/>
+              </g>
+              <g stroke="#f7dda8" stroke-opacity=".35" stroke-width="2"><line x1="0" y1="96" x2="320" y2="96"/></g>
+            </svg>
+            <div class="nf-cover-mask"></div>
+            <span class="nf-cover-badge">深度品鉴</span>
+            <div class="nf-cover-play"><span>▶</span></div>
+            <span class="nf-cover-dur">20:04</span>
+          </div>
+          <div class="nf-video-body">
+            <h3>荒野为什么总是金黄的：欧美影视大片色彩心理笔记</h3>
+            <p>沙漠、黄昏与暖调，如何塑造角色的孤独感。</p>
+            <div class="nf-tag-row"><span class="nf-tag">品鉴</span><span class="nf-tag">色彩</span></div>
+            <div class="nf-card-foot">
+              <span class="nf-author"><span class="nf-avatar" style="background:#e0a76a">苏</span>苏幕遮影</span>
+              <div class="nf-actions">
+                <button type="button" class="nf-icon-btn" data-nf-like>♡ 397</button>
+                <button type="button" class="nf-icon-btn" data-nf-save>☆ 收藏</button>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="nf-video-card" data-tags="教程">
+          <div class="nf-cover nf-ar-169">
+            <svg viewBox="0 0 320 180" role="img" aria-label="视频封面：调色监视器与色轮示意">
+              <rect width="320" height="180" fill="#101826"/>
+              <rect x="36" y="34" width="180" height="112" rx="6" fill="#0a1220" stroke="#4bc6d8" stroke-opacity=".55"/>
+              <circle cx="86" cy="90" r="30" fill="none" stroke="#e2688b" stroke-width="5" stroke-dasharray="48 140"/>
+              <circle cx="86" cy="90" r="30" fill="none" stroke="#4bc6d8" stroke-width="5" stroke-dasharray="34 140" stroke-dashoffset="-48"/>
+              <circle cx="86" cy="90" r="30" fill="none" stroke="#f0cd7a" stroke-width="5" stroke-dasharray="38 140" stroke-dashoffset="-82"/>
+              <rect x="134" y="64" width="66" height="8" rx="4" fill="#3c4b63"/>
+              <rect x="134" y="82" width="50" height="8" rx="4" fill="#f0cd7a" fill-opacity=".7"/>
+              <rect x="134" y="100" width="58" height="8" rx="4" fill="#4bc6d8" fill-opacity=".7"/>
+              <g stroke="#e2688b" stroke-opacity=".5" stroke-width="2"><line x1="240" y1="46" x2="300" y2="46"/><line x1="240" y1="66" x2="288" y2="66"/><line x1="240" y1="86" x2="296" y2="86"/></g>
+            </svg>
+            <div class="nf-cover-mask"></div>
+            <span class="nf-cover-badge">教程干货</span>
+            <div class="nf-cover-play"><span>▶</span></div>
+            <span class="nf-cover-dur">15:12</span>
+          </div>
+          <div class="nf-video-body">
+            <h3>冷调青橙不是万能公式：欧美影视大片调色误区自查</h3>
+            <p>七个常见偏色问题，配上可以直接套用的校正思路。</p>
+            <div class="nf-tag-row"><span class="nf-tag">教程</span><span class="nf-tag">调色</span></div>
+            <div class="nf-card-foot">
+              <span class="nf-author"><span class="nf-avatar" style="background:#7fd1a6">陈</span>陈一帧</span>
+              <div class="nf-actions">
+                <button type="button" class="nf-icon-btn" data-nf-like>♡ 512</button>
+                <button type="button" class="nf-icon-btn" data-nf-save>☆ 收藏</button>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="nf-video-card" data-tags="幕后">
+          <div class="nf-cover nf-ar-169">
+            <svg viewBox="0 0 320 180" role="img" aria-label="视频封面：服装道具与手绘分镜稿">
+              <rect width="320" height="180" fill="#1e2229"/>
+              <rect x="28" y="30" width="118" height="120" fill="#f2ecdc" fill-opacity=".9" transform="rotate(-3 87 90)"/>
+              <g stroke="#3b3630" stroke-opacity=".7" stroke-width="2" fill="none">
+                <rect x="44" y="48" width="34" height="24" transform="rotate(-3 61 60)"/>
+                <rect x="88" y="48" width="34" height="24" transform="rotate(-3 105 60)"/>
+                <rect x="44" y="86" width="34" height="24" transform="rotate(-3 61 98)"/>
+                <rect x="88" y="86" width="34" height="24" transform="rotate(-3 105 98)"/>
+              </g>
+              <g fill="#e2688b" fill-opacity=".8"><rect x="170" y="42" width="112" height="34" rx="4"/></g>
+              <g fill="#f0cd7a" fill-opacity=".75"><rect x="170" y="86" width="84" height="20" rx="4"/></g>
+              <g fill="#4bc6d8" fill-opacity=".7"><rect x="170" y="116" width="100" height="14" rx="4"/></g>
+              <rect x="170" y="140" width="60" height="10" rx="5" fill="#5b6675"/>
+            </svg>
+            <div class="nf-cover-mask"></div>
+            <span class="nf-cover-badge">幕后纪录</span>
+            <div class="nf-cover-play"><span>▶</span></div>
+            <span class="nf-cover-dur">19:47</span>
+          </div>
+          <div class="nf-video-body">
+            <h3>从一张分镜到一件戏服：欧美影视大片美术组的接力</h3>
+            <p>服装、道具与场景如何互相说服，形成一个可信世界。</p>
+            <div class="nf-tag-row"><span class="nf-tag">幕后</span><span class="nf-tag">美术</span></div>
+            <div class="nf-card-foot">
+              <span class="nf-author"><span class="nf-avatar" style="background:#f0cd7a">岚</span>银幕手记</span>
+              <div class="nf-actions">
+                <button type="button" class="nf-icon-btn" data-nf-like>♡ 344</button>
+                <button type="button" class="nf-icon-btn" data-nf-save>☆ 收藏</button>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="nf-video-card" data-tags="人物">
+          <div class="nf-cover nf-ar-169">
+            <svg viewBox="0 0 320 180" role="img" aria-label="视频封面：影评人手稿与打字机">
+              <rect width="320" height="180" fill="#161b16"/>
+              <rect x="0" y="128" width="320" height="52" fill="#0e120e"/>
+              <rect x="58" y="48" width="204" height="82" rx="4" fill="#e9e2cd" fill-opacity=".92"/>
+              <g stroke="#4a4438" stroke-width="3" stroke-opacity=".55">
+                <line x1="76" y1="68" x2="244" y2="68"/><line x1="76" y1="84" x2="228" y2="84"/>
+                <line x1="76" y1="100" x2="240" y2="100"/><line x1="76" y1="116" x2="196" y2="116"/>
+              </g>
+              <g fill="#2a2f28"><rect x="118" y="132" width="84" height="22" rx="4"/></g>
+              <g fill="#7fd1a6" fill-opacity=".85"><circle cx="132" cy="143" r="3"/><circle cx="150" cy="143" r="3"/><circle cx="168" cy="143" r="3"/></g>
+              <circle cx="270" cy="42" r="18" fill="#7fd1a6" fill-opacity=".2"/>
+            </svg>
+            <div class="nf-cover-mask"></div>
+            <span class="nf-cover-badge">人物访谈</span>
+            <div class="nf-cover-play"><span>▶</span></div>
+            <span class="nf-cover-dur">28:16</span>
+          </div>
+          <div class="nf-video-body">
+            <h3>写了十年影评的人，怎么判断一部片子值得二刷</h3>
+            <p>关于耐心、偏见与“第一印象之外”的那层东西。</p>
+            <div class="nf-tag-row"><span class="nf-tag">访谈</span><span class="nf-tag">影评</span></div>
+            <div class="nf-card-foot">
+              <span class="nf-author"><span class="nf-avatar" style="background:#e2688b">陆</span>陆识微</span>
+              <div class="nf-actions">
+                <button type="button" class="nf-icon-btn" data-nf-like>♡ 205</button>
+                <button type="button" class="nf-icon-btn" data-nf-save>☆ 收藏</button>
+              </div>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- 专题企划 -->
+  <section class="nf-section" id="nfTopic">
+    <div class="nf-wrap">
+      <div class="nf-sec-head">
+        <div>
+          <div class="nf-kicker">SERIES · 专题企划</div>
+          <h2>正在连载的欧美影视大片专题</h2>
+          <p>以企划方式持续追踪一个主题，官方编辑定期更新，创作者可报名参与共创。</p>
+        </div>
+        <button type="button" class="nf-btn nf-btn-ghost" data-nf-apply>报名参与共创</button>
+      </div>
+
+      <div class="nf-topic-grid">
+        <article class="nf-topic">
+          <div class="nf-topic-bg">
+            <svg viewBox="0 0 400 240" role="img" aria-label="专题封面：胶片盘与剪辑台俯视">
+              <rect width="400" height="240" fill="#201a2e"/>
+              <circle cx="110" cy="120" r="62" fill="none" stroke="#f0cd7a" stroke-opacity=".6" stroke-width="10"/>
+              <circle cx="110" cy="120" r="20" fill="#f0cd7a" fill-opacity=".5"/>
+              <g stroke="#e2688b" stroke-opacity=".45" stroke-width="3" fill="none">
+                <circle cx="290" cy="86" r="40"/><circle cx="290" cy="86" r="14"/>
+              </g>
+              <path d="M180 200 L250 200 L290 130" stroke="#4bc6d8" stroke-opacity=".6" stroke-width="3" fill="none"/>
+              <rect x="0" y="216" width="400" height="24" fill="#120e1c"/>
+            </svg>
+          </div>
+          <div class="nf-topic-shade"></div>
+          <div class="nf-topic-inner">
+            <span class="nf-topic-status">连载中 · 第 8 期</span>
+            <h3>银幕之后</h3>
+            <p>走进欧美影视大片的制作现场，记录那些没有出现在片尾字幕里的劳动者。</p>
+          </div>
+        </article>
+
+        <article class="nf-topic">
+          <div class="nf-topic-bg">
+            <svg viewBox="0 0 400 240" role="img" aria-label="专题封面：城市天际线与电影场记板">
+              <rect width="400" height="240" fill="#14262e"/>
+              <g fill="#1c3a45">
+                <rect x="20" y="130" width="40" height="110"/><rect x="76" y="96" width="34" height="144"/>
+                <rect x="290" y="112" width="38" height="128"/><rect x="340" y="142" width="40" height="98"/>
+              </g>
+              <g transform="rotate(-8 200 110)">
+                <rect x="140" y="82" width="120" height="60" rx="4" fill="#0e1b21" stroke="#4bc6d8" stroke-opacity=".65" stroke-width="3"/>
+                <path d="M140 100 L260 100" stroke="#4bc6d8" stroke-opacity=".65" stroke-width="3"/>
+                <path d="M150 82 L160 100 M180 82 L190 100 M210 82 L220 100 M240 82 L250 100" stroke="#4bc6d8" stroke-opacity=".5" stroke-width="3"/>
+              </g>
+              <circle cx="200" cy="180" r="24" fill="#4bc6d8" fill-opacity=".18"/>
+            </svg>
+          </div>
+          <div class="nf-topic-shade"></div>
+          <div class="nf-topic-inner">
+            <span class="nf-topic-status">更新至 12 集</span>
+            <h3>一座城市的一百种取景</h3>
+            <p>沿街寻找欧美影视大片里出现过的城市角落，让镜头重新认识日常。</p>
+          </div>
+        </article>
+
+        <article class="nf-topic">
+          <div class="nf-topic-bg">
+            <svg viewBox="0 0 400 240" role="img" aria-label="专题封面：调色色卡与人脸轮廓线">
+              <rect width="400" height="240" fill="#2a1c22"/>
+              <path d="M170 40 C240 40 270 96 250 150 C236 188 200 208 160 200 C118 192 96 150 108 108 C118 70 138 40 170 40 Z" fill="none" stroke="#e2688b" stroke-opacity=".7" stroke-width="3"/>
+              <g fill="#e2688b" fill-opacity=".7"><rect x="300" y="46" width="46" height="46" rx="6"/></g>
+              <g fill="#f0cd7a" fill-opacity=".7"><rect x="300" y="104" width="46" height="46" rx="6"/></g>
+              <g fill="#4bc6d8" fill-opacity=".7"><rect x="300" y="162" width="46" height="46" rx="6"/></g>
+              <g stroke="#e2688b" stroke-opacity=".45" stroke-width="2"><line x1="24" y1="60" x2="90" y2="60"/><line x1="24" y1="86" x2="74" y2="86"/></g>
+            </svg>
+          </div>
+          <div class="nf-topic-shade"></div>
+          <div class="nf-topic-inner">
+            <span class="nf-topic-status">征集中 · 已收 216 件</span>
+            <h3>色彩与情绪实验室</h3>
+            <p>以欧美影视大片为参照，投稿你的调色对照实验与色彩情绪笔记。</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 创作者矩阵 -->
+  <section class="nf-section" id="nfCreator">
+    <div class="nf-wrap">
+      <div class="nf-sec-head">
+        <div>
+          <div class="nf-kicker">CREATORS · 创作者矩阵</div>
+          <h2>签约创作者：欧美影视大片内容的长期主义者</h2>
+          <p>他们来自译制、剪辑、影评、美术与摄影，持续为社区输出专业而真诚的作品。</p>
+        </div>
+      </div>
+
+      <div class="nf-creator-grid">
+        <article class="nf-creator">
+          <span class="nf-avatar" style="background:#f0cd7a">苏</span>
+          <h3>苏幕遮影</h3>
+          <span class="nf-craft">深度品鉴 · 视觉叙事</span>
+          <p>十年影迷，偏爱用镜头语言拆解欧美影视大片，写作比说话慢。</p>
+          <div class="nf-creator-stat"><span>作品 <b>126</b></span><span>关注 <b>8.6万</b></span></div>
+        </article>
+        <article class="nf-creator">
+          <span class="nf-avatar" style="background:#4bc6d8">岚</span>
+          <h3>银幕手记</h3>
+          <span class="nf-craft">幕后纪录 · 制作工艺</span>
+          <p>跟过三次剧组，喜欢记下器材之外的人和事，擅长大制作幕后。</p>
+          <div class="nf-creator-stat"><span>作品 <b>94</b></span><span>关注 <b>6.2万</b></span></div>
+        </article>
+        <article class="nf-creator">
+          <span class="nf-avatar" style="background:#7fd1a6">陈</span>
+          <h3>陈一帧</h3>
+          <span class="nf-craft">教程干货 · 剪辑调色</span>
+          <p>剪辑师，课程把欧美影视大片的方法拆成可练的小步骤。</p>
+          <div class="nf-creator-stat"><span>作品 <b>212</b></span><span>关注 <b>12.4万</b></span></div>
+        </article>
+        <article class="nf-creator">
+          <span class="nf-avatar" style="background:#e2688b">陆</span>
+          <h3>陆识微</h3>
+          <span class="nf-craft">人物访谈 · 文化观察</span>
+          <p>提问者，关心字幕、配音与跨语言表达里的细微选择与温度。</p>
+          <div class="nf-creator-stat"><span>作品 <b>71</b></span><span>关注 <b>5.1万</b></span></div>
+        </article>
+        <article class="nf-creator">
+          <span class="nf-avatar" style="background:#c9a06a">周</span>
+          <h3>放映室</h3>
+          <span class="nf-craft">城市观影 · 空间纪录</span>
+          <p>走影院的人，记录老放映厅与新影厅之间的更替与呼吸。</p>
+          <div class="nf-creator-stat"><span>作品 <b>58</b></span><span>关注 <b>3.8万</b></span></div>
+        </article>
+        <article class="nf-creator">
+          <span class="nf-avatar" style="background:#8fb7e8">白</span>
+          <h3>白噪放映</h3>
+          <span class="nf-craft">声音设计 · 音效拆解</span>
+          <p>声音设计师，专注欧美影视大片里的环境音与音乐动机分析。</p>
+          <div class="nf-creator-stat"><span>作品 <b>83</b></span><span>关注 <b>4.7万</b></span></div>
+        </article>
+        <article class="nf-creator">
+          <span class="nf-avatar" style="background:#cfc27a">易</span>
+          <h3>易小满</h3>
+          <span class="nf-craft">新人创作者 · 日常记录</span>
+          <p>刚起步的影像爱好者，用手机拍观影日常，成长速度很快。</p>
+          <div class="nf-creator-stat"><span>作品 <b>36</b></span><span>关注 <b>1.6万</b></span></div>
+        </article>
+        <article class="nf-creator">
+          <span class="nf-avatar" style="background:#a5d6c1">程</span>
+          <h3>程野</h3>
+          <span class="nf-craft">摄影 · 外景勘景</span>
+          <p>外景摄影师，记录欧美影视大片取景地的光线与地理节奏。</p>
+          <div class="nf-creator-stat"><span>作品 <b>102</b></span><span>关注 <b>7.3万</b></span></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 榜单 -->
+  <section class="nf-section" id="nfRank">
+    <div class="nf-wrap">
+      <div class="nf-sec-head">
+        <div>
+          <div class="nf-kicker">RANKING · 数据榜单</div>
+          <h2>光影榜单：热度、口碑与新人</h2>
+          <p>基于社区真实互动与编辑评审综合计算，每周一更新，欢迎用收藏与评论参与投票。</p>
+        </div>
+      </div>
+
+      <div class="nf-rank-grid">
+        <div class="nf-rank-card">
+          <h3>本周热度榜 <span>TOP5</span></h3>
+          <ul class="nf-rank-list">
+            <li><i>1</i><span>吊臂、轨道与跟焦器：片场的一天</span><span class="nf-rank-trend">↑ 3</span></li>
+            <li><i>2</i><span>冷调青橙不是万能公式</span><span class="nf-rank-trend">↑ 1</span></li>
+            <li><i>3</i><span>夜行公路：视觉叙事拆解</span><span class="nf-rank-trend">—</span></li>
+            <li><i>4</i><span>雨夜与霓虹：城市情绪三层写法</span><span class="nf-rank-trend">↓ 2</span></li>
+            <li><i>5</i><span>荒野为什么总是金黄的</span><span class="nf-rank-trend">↑ 4</span></li>
+          </ul>
+        </div>
+        <div class="nf-rank-card">
+          <h3>口碑榜 <span>编辑评审</span></h3>
+          <ul class="nf-rank-list">
+            <li><i>1</i><span>对话字幕翻译者</span><em>9.6</em></li>
+            <li><i>2</i><span>从一张分镜到一件戏服</span><em>9.5</em></li>
+            <li><i>3</i><span>一家开了七十二年的老影院</span><em>9.3</em></li>
+            <li><i>4</i><span>三小时素材剪出三分钟</span><em>9.1</em></li>
+            <li><i>5</i><span>写了十年影评的人</span><em>8.9</em></li>
+          </ul>
+        </div>
+        <div class="nf-rank-card">
+          <h3>新人成长榜 <span>11月</span></h3>
+          <ul class="nf-rank-list">
+            <li><i>1</i><span>易小满</span><em>作品 36</em></li>
+            <li><i>2</i><span>蒋听白</span><em>作品 28</em></li>
+            <li><i>3</i><span>南屏晚场</span><em>作品 24</em></li>
+            <li><i>4</i><span>何止一秒</span><em>作品 21</em></li>
+            <li><i>5</i><span>灯下无片</span><em>作品 19</em></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 深度解析长文 -->
+  <section class="nf-section" id="nfInsight">
+    <div class="nf-wrap">
+      <div class="nf-sec-head">
+        <div>
+          <div class="nf-kicker">INSIGHT · 品牌深度解析</div>
+          <h2>关于欧美影视大片，我们为什么做这样一本档案</h2>
+          <p>品牌故事、内容理念与长期判断，写给愿意慢下来的人。</p>
+        </div>
+      </div>
+
+      <div class="nf-article-shell">
+        <article class="nf-article">
+          <div class="nf-kicker">品牌理念 · 官方发布</div>
+          <h2>把“看片”变成可以反复回看的功课</h2>
+          <p>
+            光影档案创建于一个很朴素的起点：我们注意到，很多人对<b>欧美影视大片</b>的喜爱是从一个具体的瞬间开始的——一段雨夜里没有台词的沉默、一个从车窗外掠过的长镜头、一段在片尾才响起的旋律。但互联网上关于这些瞬间的解释常常是碎片化的、速朽的。于是我们决定用一个更笨的办法，把它们做成档案：一部片子、一个镜头、一位幕后工作者地记录下去。作为专注该领域的品牌平台，我们希望这部档案既能陪新影迷入门，也能让老影迷在多年后仍愿意翻开重读。
+          </p>
+          <h3>一、定位：从“片单”走向“理解”</h3>
+          <p>
+            我们把内容分成三条主线。第一条是<b>深度品鉴</b>，围绕叙事结构、镜头语言、声音设计与表演调度，用四千字、二十分钟的体量去讲清一个具体问题，而不是泛泛地喊好。第二条是<b>幕后纪录</b>，我们尽量走近制作现场，记录美术、服装、摄影、剪辑与音效之间的协作方式，让观众看到一部<b>欧美影视大片</b>并不是某一个人的天才，而是一个系统的耐心。第三条是<b>正版片单</b>，按主题、年代与创作者归档，让检索这件事本身也有秩序感。三条线共同构成平台的内容生态，也是我们被称为用户首选的原因之一。
+          </p>
+          <h3>二、方法：编辑部与创作者的双轨协作</h3>
+          <p>
+            作为一家持续运营的企业，我们并不认为单靠编辑团队就能覆盖如此庞杂的主题。因此平台从建立之初就采用双轨机制：编辑部负责选题框架、事实核查与长期专题的推进；签约创作者则带来各自的专业视角，比如调色师谈色彩、录音师谈环境声、外景摄影师谈勘景。两者在同一个内容库里工作，共享资料与素材授权。我们坚持原创、正版，所有引用片段与剧照均以合理使用为边界，并在每一期内容末尾标注资料来源。这种略显克制的做法，让我们在行业里积累了相对稳定的口碑。
+          </p>
+          <h3>三、标准：好的品鉴应当可以被检验</h3>
+          <p>
+            我们对“好内容”有三条内部标准。其一，<b>可检验</b>：每一个判断都要能在片中定位到具体时间点与画面元素，而不是凭空抒情。其二，<b>可迁移</b>：创作者看完应当能带走一些方法，比如怎样设计一场无声的对峙，怎样用环境音替代配乐。其三，<b>可共情</b>：技术分析之外，我们仍然关心人。一部<b>欧美影视大片</b>之所以被反复谈论，往往因为它触碰了某个真实的处境——迁徙、告别、和解、重来。我们愿意在这些地方多停留一会儿，这也是品牌强调“真实、温暖、力量”的原因。
+          </p>
+          <h3>四、社区：让讨论有边界也有温度</h3>
+          <p>
+            平台的内容生态由创作者与观众共同维护。我们设置了标签筛选、榜单投票、评论互动与投稿通道，也保留了相对严格的社区规范：不攻击创作者，不泄露未公开物料，不传播侵权资源。我们希望这里是一个能认真吵架、也能认真道歉的地方。每年我们还会举办“光影挑战”创意短片征集与线下放映交流，让线上的讨论有机会落到真实的座位上。对很多用户来说，这些活动是他们对平台产生归属感的起点，也是我们愿意持续投入社会责任的方向。
+          </p>
+          <h3>五、未来：让档案长出更多枝干</h3>
+          <p>
+            接下来一年，我们会继续扩充正版片单的覆盖范围，增加女性创作者与新人导演的专题比重，并尝试把部分深度内容做成可下载的影像笔记，方便影视专业的学生在课堂内外使用。我们也会在合作伙伴的支持下，把幕后纪录的拍摄延伸到更多地区，让<b>欧美影视大片</b>背后的国际协作被更多人看见。创新与匠心并不矛盾：前者让我们尝试新的表达形态，后者提醒我们每一个镜头都值得认真对待。这是官方对内容品质的长期承诺，也是我们作为品牌愿意接受时间检验的部分。
+          </p>
+        </article>
+
+        <aside class="nf-aside">
+          <div class="nf-aside-card">
+            <h3>内容方法速览</h3>
+            <ul>
+              <li>每期锁定一个可验证的具体问题</li>
+              <li>画面定位到时间码，判断可回查</li>
+              <li>幕后内容以劳动者视角为主</li>
+              <li>片单按主题、年代与创作者归档</li>
+              <li>引用标注来源，尊重正版授权</li>
+            </ul>
+          </div>
+          <div class="nf-aside-card">
+            <h3>创作灵感 · 本周命题</h3>
+            <p class="nf-inspire-tip">如果你要为一部长片写一集十分钟的品鉴，可以从<b>“一个反复出现的物件”</b>入手：它出现在哪些场景、由谁触碰、颜色有没有变化。</p>
+            <div class="nf-inspire-pick">标题建议：<br>《那盏灯亮了四次：一个道具如何承担整部片子的情绪》</div>
+          </div>
+          <div class="nf-aside-card">
+            <h3>创作灵感 · 剪辑思路</h3>
+            <p class="nf-inspire-tip">把最想保留的三个镜头先剪出来，再倒推铺垫与收尾。节奏感来自<b>留白</b>，不是来自更多素材。</p>
+            <div class="nf-inspire-pick">可直接使用的结构：<br>悬念开场 → 方法拆解 → 对照案例 → 一句收束</div>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- 用户评价 -->
+  <section class="nf-section" id="nfReview">
+    <div class="nf-wrap">
+      <div class="nf-sec-head">
+        <div>
+          <div class="nf-kicker">VOICES · 社区声音</div>
+          <h2>他们如何评价这本光影档案</h2>
+          <p>来自影迷、学生、从业者与合作伙伴的真实反馈，内容经授权整理。</p>
+        </div>
+      </div>
+
+      <div class="nf-review-grid">
+        <div class="nf-review">
+          <div class="nf-review-top">
+            <span class="nf-avatar" style="background:#f0cd7a">林</span>
+            <div><b>林半舟</b><small>影视专业学生</small></div>
+          </div>
+          <div class="nf-stars">★★★★★</div>
+          <p>写论文时最缺的是可回查的画面定位，这里每期都会给时间码，省了我大量重复拉片的时间。</p>
+        </div>
+        <div class="nf-review">
+          <div class="nf-review-top">
+            <span class="nf-avatar" style="background:#4bc6d8">顾</span>
+            <div><b>顾南枝</b><small>剪辑师</small></div>
+          </div>
+          <div class="nf-stars">★★★★★</div>
+          <p>调色那期我反复看了三遍，讲误区讲得很直接，没有兜圈子。已经在工作里用上了。</p>
+        </div>
+        <div class="nf-review">
+          <div class="nf-review-top">
+            <span class="nf-avatar" style="background:#7fd1a6">小</span>
+            <div><b>周末场记</b><small>社区新用户</small></div>
+          </div>
+          <div class="nf-stars">★★★★☆</div>
+          <p>刚来一周，界面很清爽，搜索能直接定位到专题，希望以后多一点新人友好的入门片单。</p>
+        </div>
+        <div class="nf-review">
+          <div class="nf-review-top">
+            <span class="nf-avatar" style="background:#e2688b">译</span>
+            <div><b>译路同行</b><small>字幕译者</small></div>
+          </div>
+          <div class="nf-stars">★★★★★</div>
+          <p>访谈里聊到的那些取舍很真实。做译制的人看到有人认真记录这些细节，会觉得很被理解。</p>
+        </div>
+        <div class="nf-review">
+          <div class="nf-review-top">
+            <span class="nf-avatar" style="background:#c9a06a">院</span>
+            <div><b>老影厅守夜人</b><small>影院从业者</small></div>
+          </div>
+          <div class="nf-stars">★★★★☆</div>
+          <p>老影院那一集拍得很克制，没有煽情。我们同行转了好几轮，都说拍出了那味儿。</p>
+        </div>
+        <div class="nf-review">
+          <div class="nf-review-top">
+            <span class="nf-avatar" style="background:#8fb7e8">夏</span>
+            <div><b>夏至未央</b><small>内容合作方</small></div>
+          </div>
+          <div class="nf-stars">★★★★★</div>
+          <p>合作过程顺畅，资料核对严谨，交付时间也稳。对一家持续运营的平台来说，这个专业度很难得。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 企业动态 + 合作 -->
+  <section class="nf-section" id="nfNews">
+    <div class="nf-wrap">
+      <div class="nf-sec-head">
+        <div>
+          <div class="nf-kicker">NEWS · 企业动态</div>
+          <h2>官方发布与内容更新日志</h2>
+          <p>记录品牌每一步进展，也欢迎合作伙伴与我们联系。</p>
+        </div>
+        <button type="button" class="nf-btn nf-btn-ghost" data-nf-copy>复制官网链接</button>
+      </div>
+
+      <div class="nf-news-grid">
+        <article class="nf-news-item">
+          <span class="nf-news-date">2026 / 11 / 19</span>
+          <h3>「银幕之后」幕后纪录专题第 8 期上线</h3>
+          <p>本期走进美术组，追踪一件戏服从分镜到成片的全过程。</p>
+        </article>
+        <article class="nf-news-item">
+          <span class="nf-news-date">2026 / 11 / 12</span>
+          <h3>光影档案馆完成年度片单扩容</h3>
+          <p>新增 24 部欧美影视大片正版片单，按主题与年代重新梳理。</p>
+        </article>
+        <article class="nf-news-item">
+          <span class="nf-news-date">2026 / 11 / 05</span>
+          <h3>「光影挑战」创意短片征集开放报名</h3>
+          <p>面向所有创作者，主题为“一次没有台词的和解”，12 月截止。</p>
+        </article>
+        <article class="nf-news-item">
+          <span class="nf-news-date">2026 / 10 / 28</span>
+          <h3>创作者成长计划第 4 期开始招募</h3>
+          <p>面向深度影评与幕后纪录方向，提供资料支持与制作辅导。</p>
+        </article>
+      </div>
+
+      <div style="margin-top:30px">
+        <div class="nf-kicker" style="margin-bottom:10px">PARTNERS · 合作品牌与伙伴</div>
+        <div class="nf-partners">
+          <span class="nf-partner">光影放映联盟</span>
+          <span class="nf-partner">城市影像馆</span>
+          <span class="nf-partner">声画研究所</span>
+          <span class="nf-partner">青年导演工作坊</span>
+          <span class="nf-partner">正版片源协作计划</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="nf-section" id="nfFaq">
+    <div class="nf-wrap">
+      <div class="nf-sec-head">
+        <div>
+          <div class="nf-kicker">HELP · 帮助中心</div>
+          <h2>关于欧美影视大片档案的常见问题</h2>
+          <p>若没有找到答案，可通过页面底部的联系方式与我们取得联系。</p>
+        </div>
+      </div>
+
+      <div class="nf-faq">
+        <details>
+          <summary>平台的内容主要围绕哪些方向？</summary>
+          <p>平台围绕欧美影视大片的深度品鉴、幕后纪录、正版片单与人物访谈展开，兼顾教程干货与城市观影等延伸主题，所有内容由编辑团队与签约创作者共同维护。</p>
+        </details>
+        <details>
+          <summary>如何成为签约创作者？</summary>
+          <p>可通过“报名参与共创”入口提交资料，注明擅长的方向与过往作品说明。我们更看重持续输出的能力与对内容真实的尊重，审核周期通常为 7 到 14 个工作日。</p>
+        </details>
+        <details>
+          <summary>内容中的片段引用是否合规？</summary>
+          <p>平台坚持正版与合理使用原则，引用片段用于评论与分析，并在每期内容末尾标注资料来源。如权利人认为存在不当使用，可通过联系方式告知我们。</p>
+        </details>
+        <details>
+          <summary>榜单是如何计算出来的？</summary>
+          <p>热度榜基于社区互动数据，口碑榜由编辑评审根据内容深度与准确性打分，新人榜参考新创作者的更新频率与完成度。三个榜单每周一更新一次。</p>
+        </details>
+        <details>
+          <summary>可以投稿自己的影评或短片吗？</summary>
+          <p>可以。投稿通道长期开放，题材需与欧美影视大片相关。我们会为通过初审的投稿提供编辑建议，优秀作品有机会进入专题企划。</p>
+        </details>
+        <details>
+          <summary>是否提供线下活动？</summary>
+          <p>平台每年会组织放映交流与创作者见面活动，具体信息在“企业动态”中发布。活动名额有限，通常优先面向社区活跃用户与投稿作者。</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- 联系 / 投稿 -->
+  <section class="nf-section" id="nfContact">
+    <div class="nf-wrap">
+      <div class="nf-cta">
+        <div>
+          <h2>和我们一起，把欧美影视大片讲得更清楚</h2>
+          <p>无论你是影迷、学生还是从业者，都欢迎投稿、报名共创或提出合作意向。我们相信内容的品质来自一次次认真回应。</p>
+          <div class="nf-cta-actions">
+            <button type="button" class="nf-btn nf-btn-gold" data-nf-apply>我要投稿</button>
+            <button type="button" class="nf-btn nf-btn-ghost" data-nf-share>分享给朋友</button>
+            <button type="button" class="nf-btn nf-btn-ghost" data-nf-feedback>意见反馈</button>
+          </div>
+        </div>
+        <div class="nf-cta-info">
+          <span>合作邮箱：<b>partner@guangying-archive.cn</b></span>
+          <span>投稿邮箱：<b>submit@guangying-archive.cn</b></span>
+          <span>工作时间：周一至周五 10:00–19:00</span>
+          <span>办公地址：城市影像馆三层 光影档案编辑部</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="nf-footer">
+  <div class="nf-wrap">
+    <div class="nf-footer-grid">
+      <div>
+        <div class="nf-footer-brand">
+          <span class="nf-brand-mark">影</span>
+          <span>
+            <span class="nf-brand-name">光影档案<em>.影库</em></span>
+            <span class="nf-brand-sub">Film Archive</span>
+          </span>
+        </div>
+        <p>光影档案是专注欧美影视大片的品牌视频门户，以深度品鉴、幕后纪录与正版片单构筑内容生态，坚持原创、正版与专业，致力于成为值得信赖的行业领先内容平台，持续运营，用户至上。</p>
+      </div>
+      <div>
+        <h4>内容导航</h4>
+        <ul>
+          <li><a href="#nfFocus">焦点内容</a></li>
+          <li><a href="#nfFeed">热门影像</a></li>
+          <li><a href="#nfTopic">专题企划</a></li>
+          <li><a href="#nfRank">数据榜单</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>关于我们</h4>
+        <ul>
+          <li><a href="#nfInsight">品牌故事</a></li>
+          <li><a href="#nfCreator">创作者矩阵</a></li>
+          <li><a href="#nfNews">企业动态</a></li>
+          <li><a href="#nfFaq">帮助中心</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>参与共建</h4>
+        <ul>
+          <li><a href="#nfContact">投稿入口</a></li>
+          <li><a href="#nfContact">合作联系</a></li>
+          <li><a href="#nfContact">意见反馈</a></li>
+          <li><a href="#nfTop">返回顶部</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="nf-footer-bottom">
+      <span>光影档案官方网站 · 版权所有 · 持续运营中</span>
+      <span>内容仅用于评论与研究 · 备案信息以官方公告为准</span>
+    </div>
+  </div>
+</footer>
+
+<button type="button" class="nf-top-btn" id="nfTopBtn" aria-label="回到顶部">↑</button>
+<div class="nf-toast" id="nfToast" role="status" aria-live="polite"></div>
+
+<div class="nf-modal" id="nfModal" role="dialog" aria-modal="true" aria-labelledby="nfModalTitle">
+  <div class="nf-modal-box">
+    <button type="button" class="nf-modal-close" id="nfModalClose" aria-label="关闭弹窗">×</button>
+    <h3 id="nfModalTitle">投稿与共创报名</h3>
+    <p class="nf-modal-sub" id="nfModalSub">请填写简要信息，我们会在 7 个工作日内回复。</p>
+    <form id="nfModalForm">
+      <label for="nfFormName">称呼</label>
+      <input id="nfFormName" name="name" type="text" placeholder="怎么称呼你" required>
+      <label for="nfFormContact">联系方式</label>
+      <input id="nfFormContact" name="contact" type="text" placeholder="邮箱或社交账号" required>
+      <label for="nfFormType">参与类型</label>
+      <select id="nfFormType" name="type">
+        <option>影评投稿</option>
+        <option>幕后纪录选题</option>
+        <option>创意短片征集</option>
+        <option>品牌合作</option>
+        <option>意见反馈</option>
+      </select>
+      <label for="nfFormMsg">内容说明</label>
+      <textarea id="nfFormMsg" name="msg" placeholder="简要描述你的作品方向或想反馈的问题"></textarea>
+      <div class="nf-modal-foot">
+        <button type="button" class="nf-btn nf-btn-ghost" id="nfModalCancel">取消</button>
+        <button type="submit" class="nf-btn nf-btn-gold">提交</button>
+      </div>
+    </form>
+  </div>
+</div>
+
+<script>
+(function(){
+  "use strict";
+
+  var toastEl = document.getElementById('nfToast');
+  var toastTimer = null;
+  function showToast(msg){
+    if(!toastEl) return;
+    toastEl.textContent = msg;
+    toastEl.classList.add('nf-show');
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(function(){ toastEl.classList.remove('nf-show'); }, 2200);
+  }
+
+  /* 移动端导航 */
+  var burger = document.getElementById('nfBurger');
+  var nav = document.getElementById('nfNav');
+  if(burger && nav){
+    burger.addEventListener('click', function(){
+      var open = nav.classList.toggle('nf-nav-open');
+      burger.setAttribute('aria-expanded', open ? 'true' : 'false');
+      burger.textContent = open ? '×' : '☰';
+    });
+    nav.addEventListener('click', function(e){
+      if(e.target.tagName === 'A'){
+        nav.classList.remove('nf-nav-open');
+        burger.setAttribute('aria-expanded','false');
+        burger.textContent = '☰';
+      }
+    });
+  }
+
+  /* 搜索反馈 */
+  var searchInput = document.getElementById('nfSearchInput');
+  var searchBtn = document.getElementById('nfSearchBtn');
+  var searchTip = document.getElementById('nfSearchTip');
+  var hotWords = ['银幕之后','调色','字幕翻译','老影院','幕后','夜行公路'];
+  function runSearch(){
+    var q = (searchInput.value || '').trim();
+    if(!searchTip) return;
+    if(!q){
+      searchTip.innerHTML = '试试搜索：' + hotWords.map(function(w){ return '<b>'+w+'</b>'; }).join('、');
+      searchTip.classList.add('nf-open');
+      return;
+    }
+    var hit = hotWords.filter(function(w){ return w.indexOf(q) > -1 || q.indexOf(w) > -1; });
+    if(hit.length){
+      searchTip.innerHTML = '找到与「<b>'+q+'</b>」相关的内容：' + hit.join('、') + '，已为你筛选热点方向。';
+    }else{
+      searchTip.innerHTML = '暂时没有「<b>'+q+'</b>」的结果，可尝试：' + hotWords.slice(0,3).join('、') + '。';
+    }
+    searchTip.classList.add('nf-open');
+  }
+  if(searchBtn){ searchBtn.addEventListener('click', runSearch); }
+  if(searchInput){
+    searchInput.addEventListener('keydown', function(e){ if(e.key === 'Enter'){ e.preventDefault(); runSearch(); } });
+    searchInput.addEventListener('input', function(){ if(!searchInput.value.trim() && searchTip){ searchTip.classList.remove('nf-open'); } });
+  }
+  document.addEventListener('click', function(e){
+    if(searchTip && !searchTip.contains(e.target) && e.target !== searchInput && e.target !== searchBtn){
+      searchTip.classList.remove('nf-open');
+    }
+  });
+
+  /* 点赞 / 收藏 */
+  document.querySelectorAll('[data-nf-like]').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      var m = btn.textContent.match(/\d+/);
+      var n = m ? parseInt(m[0],10) : 0;
+      if(btn.classList.contains('nf-liked')){
+        btn.classList.remove('nf-liked');
+        btn.textContent = '♡ ' + Math.max(0, n-1);
+      }else{
+        btn.classList.add('nf-liked');
+        btn.textContent = '♥ ' + (n+1);
+      }
+    });
+  });
+  document.querySelectorAll('[data-nf-save]').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      var saved = btn.classList.toggle('nf-saved');
+      btn.textContent = saved ? '★ 已收藏' : '☆ 收藏';
+      showToast(saved ? '已收藏到本机' : '已取消收藏');
+    });
+  });
+
+  /* 标签筛选 */
+  var filterBar = document.getElementById('nfFilterBar');
+  var grid = document.getElementById('nfVideoGrid');
+  if(filterBar && grid){
+    filterBar.addEventListener('click', function(e){
+      var chip = e.target.closest('.nf-chip');
+      if(!chip) return;
+      filterBar.querySelectorAll('.nf-chip').forEach(function(c){ c.classList.remove('nf-active'); });
+      chip.classList.add('nf-active');
+      var f = chip.getAttribute('data-filter');
+      var shown = 0;
+      grid.querySelectorAll('.nf-video-card').forEach(function(card){
+        var tags = card.getAttribute('data-tags') || '';
+        var show = (f === 'all') || tags.indexOf(f) > -1;
+        card.classList.toggle('nf-hide', !show);
+        if(show) shown++;
+      });
+      if(f !== 'all') showToast('已筛选：' + chip.textContent.trim() + '（' + shown + ' 条）');
+    });
+  }
+
+  /* 弹窗 */
+  var modal = document.getElementById('nfModal');
+  var modalTitle = document.getElementById('nfModalTitle');
+  var modalSub = document.getElementById('nfModalSub');
+  var modalForm = document.getElementById('nfModalForm');
+  var modalClose = document.getElementById('nfModalClose');
+  var modalCancel = document.getElementById('nfModalCancel');
+  function openModal(title, sub){
+    if(!modal) return;
+    modalTitle.textContent = title || '投稿与共创报名';
+    modalSub.textContent = sub || '请填写简要信息，我们会在 7 个工作日内回复。';
+    modal.classList.add('nf-open');
+    document.body.style.overflow = 'hidden';
+  }
+  function closeModal(){
+    if(!modal) return;
+    modal.classList.remove('nf-open');
+    document.body.style.overflow = '';
+  }
+  if(modalClose) modalClose.addEventListener('click', closeModal);
+  if(modalCancel) modalCancel.addEventListener('click', closeModal);
+  if(modal) modal.addEventListener('click', function(e){ if(e.target === modal) closeModal(); });
+  document.addEventListener('keydown', function(e){ if(e.key === 'Escape') closeModal(); });
+  document.querySelectorAll('[data-nf-apply]').forEach(function(b){
+    b.addEventListener('click', function(){ openModal('投稿与共创报名','请填写简要信息，我们会认真阅读每一条投稿。'); });
+  });
+  document.querySelectorAll('[data-nf-feedback]').forEach(function(b){
+    b.addEventListener('click', function(){ openModal('意见反馈','你的建议会直接进入编辑部的每周复盘清单。'); });
+  });
+  if(modalForm){
+    modalForm.addEventListener('submit', function(e){
+      e.preventDefault();
+      closeModal();
+      modalForm.reset();
+      showToast('已收到，感谢你的支持');
+    });
+  }
+
+  /* 分享 */
+  var shareModalTitle = '分享光影档案';
+  function openShare(){
+    openModal(shareModalTitle, '选择一种方式把这份光影档案分享给朋友。');
+    var box = modalForm;
+    if(box){
+      box.innerHTML = '<div class="nf-share-row">'+
+        '<button type="button" data-share-way="微信">微信</button>'+
+        '<button type="button" data-share-way="微博">微博</button>'+
+        '<button type="button" data-share-way="QQ">QQ</button>'+
+        '<button type="button" data-share-way="复制链接">复制链接</button>'+
+        '</div>'+
+        '<div class="nf-modal-foot"><button type="button" class="nf-btn nf-btn-ghost" id="nfShareClose">关闭</button></div>';
+      box.querySelectorAll('[data-share-way]').forEach(function(b){
+        b.addEventListener('click', function(){
+          var way = b.getAttribute('data-share-way');
+          if(way === '复制链接'){ copyLink(); }else{ showToast('已唤起' + way + '分享入口'); }
+          closeModal();
+        });
+      });
+      var sc = document.getElementById('nfShareClose');
+      if(sc) sc.addEventListener('click', closeModal);
+    }
+  }
+  document.querySelectorAll('[data-nf-share]').forEach(function(b){ b.addEventListener('click', openShare); });
+
+  function copyLink(){
+    var url = 'https://guangying-archive.example.com/';
+    if(navigator.clipboard && navigator.clipboard.writeText){
+      navigator.clipboard.writeText(url).then(function(){ showToast('官网链接已复制'); }).catch(function(){ showToast('复制失败，请手动复制'); });
+    }else{
+      showToast('官网链接已复制');
+    }
+  }
+  document.querySelectorAll('[data-nf-copy]').forEach(function(b){ b.addEventListener('click', copyLink); });
+
+  /* 回到顶部 */
+  var topBtn = document.getElementById('nfTopBtn');
+  window.addEventListener('scroll', function(){
+    if(topBtn){ topBtn.classList.toggle('nf-show', window.scrollY > 520); }
+  }, {passive:true});
+  if(topBtn){
+    topBtn.addEventListener('click', function(){ window.scrollTo({top:0, behavior:'smooth'}); });
+  }
+
+  /* 初始搜索提示 */
+  if(searchTip){
+    searchTip.innerHTML = '热门检索：' + hotWords.slice(0,4).map(function(w){ return '<b>'+w+'</b>'; }).join('、');
+  }
+})();
+</script>
+</body>
+  </html>
